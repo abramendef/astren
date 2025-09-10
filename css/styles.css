@@ -79,8 +79,9 @@ body {
 }
 
 .logo img {
-  height: 96px;
-  width: auto;
+  height: 120px !important;
+  width: auto !important;
+  max-width: none !important;
   filter: invert(1);
 }
 
@@ -389,9 +390,9 @@ body {
 }
 
 .product-logo img {
-  height: 200px;
-  width: auto;
-  max-width: 450px;
+  height: 280px !important;
+  width: auto !important;
+  max-width: 500px !important;
   transition: var(--transition);
 }
 
@@ -451,8 +452,9 @@ body {
 }
 
 .footer-logo img {
-  height: 28px;
-  width: auto;
+  height: 40px !important;
+  width: auto !important;
+  max-width: none !important;
   opacity: 0.8;
   filter: invert(1);
   transition: var(--transition);
@@ -525,7 +527,7 @@ body {
   }
   
   .product-logo img {
-    height: 160px;
+    height: 220px !important;
   }
   
   .contact-buttons {
@@ -561,7 +563,7 @@ body {
   }
   
   .product-logo img {
-    height: 140px;
+    height: 200px !important;
   }
 }
 
