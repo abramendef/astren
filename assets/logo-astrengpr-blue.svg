@@ -1,0 +1,6 @@
+<svg width="150" height="32" viewBox="0 0 150 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Placeholder for AstrenGPR logo in blue -->
+  <rect x="0" y="8" width="24" height="16" rx="4" fill="#2F7DE1"/>
+  <rect x="4" y="12" width="16" height="8" rx="2" fill="#ffffff"/>
+  <text x="32" y="22" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2F7DE1">AstrenGPR</text>
+</svg>
