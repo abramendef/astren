@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a static corporate website for Astren, a parent company that designs, launches, and grows product lines with their own distinct identities. The site serves as the main landing page showcasing Astren's brand architecture and product portfolio, including AstrenGPR (blue), AstrenAI (purple), and AstrenGames (red), while maintaining the parent brand in black. The website is built as a simple, modern, and responsive static site without frameworks.
+This is a static corporate website for Astren, a company that designs, launches, and grows product lines with their own distinct identities. The site serves as the main landing page showcasing Astren's brand architecture and product portfolio, including AstrenGPR (blue), AstrenAI (purple), and AstrenGames (red), while maintaining the main brand in black. The website is built as a simple, modern, and responsive static site without frameworks.
 
 ## User Preferences
 
