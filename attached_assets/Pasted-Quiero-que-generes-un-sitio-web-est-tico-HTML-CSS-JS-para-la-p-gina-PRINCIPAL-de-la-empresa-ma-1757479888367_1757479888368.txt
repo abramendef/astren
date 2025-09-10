@@ -1,0 +1,151 @@
+Quiero que generes un sitio web estático (HTML + CSS + JS) para la página PRINCIPAL de la empresa madre **ASTREN**.
+NO uses frameworks (ni React/Tailwind). Solo HTML, CSS moderno (variables) y JS mínimo.
+
+## SOBRE ASTREN (contexto para contenidos)
+- Astren es la **empresa madre** que agrupa varias líneas de producto con identidad propia.
+- La **marca madre** es en color **negro** (logo negro). Cada producto tiene su **color**:
+  - AstrenGPR → azul #2F7DE1
+  - AstrenAI → morado #7A39C4
+  - AstrenGames → rojo #D64040
+- En esta landing NO te centres en GPR. Es una página **neutral** de empresa madre.
+- Descripción de Astren (úsala en sección “Qué es Astren”):
+  “Astren es una empresa madre que diseña, lanza y hace crecer líneas de producto con identidad propia. 
+   Mantenemos una arquitectura de marca clara: la marca madre en negro y cada producto con su propio color y la misma esencia visual. 
+   Buscamos experiencias simples, consistentes y escalables.”
+- Productos que deben mostrarse como catálogo:
+  1) AstrenGPR — “Gestor con reputación. Áreas, tareas, grupos y evidencias.” (estado: activo)
+  2) AstrenAI — “Suite de IA para creadores y equipos.” (estado: en preparación)
+  3) AstrenGames — “Experiencias interactivas y juegos propios.” (estado: en preparación)
+
+## IMPORTANTE (LOGOS / IMÁGENES)
+YO subiré estos SVG (cada uno YA incluye el texto “ASTREN” cuando aplique). 
+NO coloques texto “ASTREN” adicional junto a los logos. 
+Solo referencia estas rutas exactas con <img> y alt adecuados:
+- /assets/logo-astren-black.svg         (marca madre, NEGRO)
+- /assets/logo-astrengpr-blue.svg       (producto GPR, AZUL)
+- /assets/logo-astrenai-purple.svg      (producto AI, MORADO)
+- /assets/logo-astrengames-red.svg      (producto Games, ROJO)
+También crea:
+- /assets/favicon.svg   (ícono simple placeholder)
+- /assets/og-astren.png (placeholder para Open Graph)
+
+## ESTRUCTURA DE ARCHIVOS
+- index.html  (idioma es-MX, SEO listo)
+- /css/styles.css
+- /js/main.js
+- /assets/ (carpeta de imágenes/logos)
+
+## DISEÑO / ESTILO
+- Paleta base: blanco/negro/grises (minimalista, moderno, elegante).
+- Acentos SOLO en las tarjetas de productos (según su color).
+- Tipografías del sistema (Inter/Roboto/seguras).
+- Bordes redondeados suaves, sombras sutiles, transiciones en hover/focus.
+- Layout responsive (mobile-first).
+- Header sticky con blur y borde inferior sutil.
+
+## SECCIONES Y CONTENIDO
+1) HEADER (sticky)
+   - Izquierda: <img src="/assets/logo-astren-black.svg" alt="Logo Astren"> sin texto extra.
+   - Derecha: navegación con enlaces ancla:
+     * “Productos” → #productos
+     * “Contacto” → #contacto
+   - Fondo semitransparente + blur + borde inferior sutil.
+
+2) HERO (neutral, no centrado en GPR)
+   - H1: “Empresa madre. Identidad única para cada producto.”
+   - Párrafo: 
+     “Somos Astren, una marca paraguas que diseña, lanza y hace crecer líneas de producto con identidad propia. 
+      La marca madre es negra; cada producto vive con su color: GPR (azul), AI (morado), Games (rojo).”
+   - Botones:
+     * primario: “Explorar productos” (scroll a #productos)
+     * secundario: “Conoce Astren” (scroll a #nosotros)
+
+3) SECCIÓN “QUÉ ES ASTREN” (#nosotros)
+   - Párrafo con la descripción proporcionada arriba.
+   - Tres tarjetas (grid responsive):
+     * “Arquitectura de marca” — Marca madre en negro; productos con color y el mismo símbolo; consistencia + diferenciación.
+     * “Diseño minimalista” — Blanco/negro/gris; acentos solo para comunicar el producto correcto.
+     * “Ecosistema escalable” — Estructura de repos y subdominios (ej.: gpr.astren.app, ai.astren.app).
+
+4) SECCIÓN “PRODUCTOS ASTREN” (#productos)
+   - Tres tarjetas (grid responsive), cada una con su logo y color:
+     a) AstrenGPR (AZUL #2F7DE1)
+        - <img src="/assets/logo-astrengpr-blue.svg" alt="Logo AstrenGPR">
+        - Título: AstrenGPR
+        - Texto: “Gestor con reputación. Áreas, tareas, grupos y evidencias.”
+        - Estado: “(activo)” en texto pequeño/gris.
+        - Botón: “Ir a GPR” → https://gpr.astren.app
+     b) AstrenAI (MORADO #7A39C4)
+        - <img src="/assets/logo-astrenai-purple.svg" alt="Logo AstrenAI">
+        - Título: AstrenAI
+        - Texto: “Suite de IA para creadores y equipos.”
+        - Estado: “(en preparación)”
+        - Botón: “Avisarme cuando esté” → #
+     c) AstrenGames (ROJO #D64040)
+        - <img src="/assets/logo-astrengames-red.svg" alt="Logo AstrenGames">
+        - Título: AstrenGames
+        - Texto: “Experiencias interactivas y juegos propios.”
+        - Estado: “(en preparación)”
+        - Botón: “Conocer más” → #
+
+5) SECCIÓN CONTACTO (#contacto)
+   - Título: Contacto
+   - Texto: “¿Colaboraciones, prensa o soporte? Escríbenos.”
+   - Botones:
+     * Correo: mailto:hola@astren.app
+     * Instagram: #
+     * X / Twitter: #
+
+6) FOOTER
+   - Logo pequeño: <img src="/assets/logo-astren-black.svg" alt="Logo Astren">
+   - Texto “ASTREN” NO es necesario (el SVG ya lo incluye).
+   - Frase breve: “Marca madre negra · Productos por color”.
+   - “astren.app”.
+   - Copyright dinámico con el año actual.
+
+## SEO / METADATOS (index.html)
+- <html lang="es-MX">
+- <meta charset="utf-8">, <meta name="viewport" content="width=device-width, initial-scale=1">
+- <title>Astren — Empresa madre</title>
+- <meta name="description" content="Astren es la empresa madre que diseña, lanza y hace crecer líneas de producto con identidad propia.">
+- Open Graph:
+  * og:title = "Astren — Empresa madre"
+  * og:description = "Empresa madre. Ecosistema de productos con identidad propia."
+  * og:type = "website"
+  * og:url = "https://astren.app"
+  * og:image = "/assets/og-astren.png"
+- <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+- JSON-LD Organization básico: 
+  {
+    "@context":"https://schema.org",
+    "@type":"Organization",
+    "name":"Astren",
+    "url":"https://astren.app",
+    "logo":"https://astren.app/assets/logo-astren-black.svg",
+    "sameAs":[]
+  }
+
+## ACCESIBILIDAD
+- alt descriptivo en todos los <img>.
+- Contraste suficiente (texto claro sobre fondo oscuro).
+- Focus visible en links/botones (outline).
+- Navegación por teclado; aria-labels si hace falta.
+
+## JS (/js/main.js)
+- Añadir dinámicamente el año actual en el footer.
+- Scroll suave para enlaces internos que empiezan con “#”.
+
+## CSS (/css/styles.css)
+- Variables :root:
+  --bg:#0b0b0c; --txt:#f5f5f5; --muted:#a6a6a6; --card:#121214; --border:#1e1e20;
+  --gpr:#2F7DE1; --ai:#7A39C4; --games:#D64040;
+- Base: tipografía del sistema, fondo oscuro, texto claro.
+- Header sticky con blur (backdrop-filter) y borde inferior sutil.
+- Grids responsive para tarjetas (nosotros/productos).
+- Botones .btn (primario y ghost) con transiciones hover/focus.
+- Tarjetas de productos con borde/acentos usando su color correspondiente.
+
+## ENTREGA
+- Asegúrate de que el sitio funcione al abrir index.html (aunque los SVG aún no estén).
+- Deja los <img> apuntando a los paths especificados; yo subiré los SVG con esos nombres exactos.
+- Código limpio, indentado y comentado.
