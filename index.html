@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Astren — Empresa madre</title>
+    <meta name="description" content="Astren es la empresa madre que diseña, lanza y hace crecer líneas de producto con identidad propia.">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Astren — Empresa madre">
+    <meta property="og:description" content="Empresa madre. Ecosistema de productos con identidad propia.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://astren.app">
+    <meta property="og:image" content="/assets/og-astren.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="/css/styles.css">
+    
+    <!-- JSON-LD -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Astren",
+        "url": "https://astren.app",
+        "logo": "https://astren.app/assets/logo-astren-black.svg",
+        "sameAs": []
+    }
+    </script>
+</head>
+<body>
+    <!-- Header sticky -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="/assets/logo-astren-black.svg" alt="Logo Astren">
+                </div>
+                <nav class="nav">
+                    <a href="#productos" class="nav-link">Productos</a>
+                    <a href="#contacto" class="nav-link">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Empresa madre. Identidad única para cada producto.</h1>
+                <p class="hero-description">
+                    Somos Astren, una marca paraguas que diseña, lanza y hace crecer líneas de producto con identidad propia. 
+                    La marca madre es negra; cada producto vive con su color: GPR (azul), AI (morado), Games (rojo).
+                </p>
+                <div class="hero-buttons">
+                    <a href="#productos" class="btn btn-primary">Explorar productos</a>
+                    <a href="#nosotros" class="btn btn-ghost">Conoce Astren</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Qué es Astren -->
+    <section id="nosotros" class="section">
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title">Qué es Astren</h2>
+                <p class="section-description">
+                    Astren es una empresa madre que diseña, lanza y hace crecer líneas de producto con identidad propia. 
+                    Mantenemos una arquitectura de marca clara: la marca madre en negro y cada producto con su propio color y la misma esencia visual. 
+                    Buscamos experiencias simples, consistentes y escalables.
+                </p>
+                
+                <div class="cards-grid">
+                    <div class="card">
+                        <h3 class="card-title">Arquitectura de marca</h3>
+                        <p class="card-description">
+                            Marca madre en negro; productos con color y el mismo símbolo; consistencia + diferenciación.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h3 class="card-title">Diseño minimalista</h3>
+                        <p class="card-description">
+                            Blanco/negro/gris; acentos solo para comunicar el producto correcto.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h3 class="card-title">Ecosistema escalable</h3>
+                        <p class="card-description">
+                            Estructura de repos y subdominios (ej.: gpr.astren.app, ai.astren.app).
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Productos Astren -->
+    <section id="productos" class="section">
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title">Productos Astren</h2>
+                
+                <div class="products-grid">
+                    <!-- AstrenGPR -->
+                    <div class="product-card" data-product="gpr">
+                        <div class="product-logo">
+                            <img src="/assets/logo-astrengpr-blue.svg" alt="Logo AstrenGPR">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">AstrenGPR</h3>
+                            <p class="product-description">Gestor con reputación. Áreas, tareas, grupos y evidencias.</p>
+                            <p class="product-status">(activo)</p>
+                            <a href="https://gpr.astren.app" class="btn btn-product" data-product="gpr">Ir a GPR</a>
+                        </div>
+                    </div>
+
+                    <!-- AstrenAI -->
+                    <div class="product-card" data-product="ai">
+                        <div class="product-logo">
+                            <img src="/assets/logo-astrenai-purple.svg" alt="Logo AstrenAI">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">AstrenAI</h3>
+                            <p class="product-description">Suite de IA para creadores y equipos.</p>
+                            <p class="product-status">(en preparación)</p>
+                            <a href="#" class="btn btn-product" data-product="ai">Avisarme cuando esté</a>
+                        </div>
+                    </div>
+
+                    <!-- AstrenGames -->
+                    <div class="product-card" data-product="games">
+                        <div class="product-logo">
+                            <img src="/assets/logo-astrengames-red.svg" alt="Logo AstrenGames">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">AstrenGames</h3>
+                            <p class="product-description">Experiencias interactivas y juegos propios.</p>
+                            <p class="product-status">(en preparación)</p>
+                            <a href="#" class="btn btn-product" data-product="games">Conocer más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="section">
+        <div class="container">
+            <div class="section-content">
+                <h2 class="section-title">Contacto</h2>
+                <p class="section-description">¿Colaboraciones, prensa o soporte? Escríbenos.</p>
+                
+                <div class="contact-buttons">
+                    <a href="mailto:hola@astren.app" class="btn btn-ghost">Correo</a>
+                    <a href="#" class="btn btn-ghost">Instagram</a>
+                    <a href="#" class="btn btn-ghost">X / Twitter</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="/assets/logo-astren-black.svg" alt="Logo Astren">
+                </div>
+                <p class="footer-tagline">Marca madre negra · Productos por color</p>
+                <p class="footer-domain">astren.app</p>
+                <p class="footer-copyright">© <span id="current-year"></span> Astren. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="/js/main.js"></script>
+</body>
+</html>
