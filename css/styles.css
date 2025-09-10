@@ -79,7 +79,7 @@ body {
 }
 
 .logo img {
-  height: 32px;
+  height: 48px;
   width: auto;
   filter: invert(1);
 }
@@ -389,9 +389,9 @@ body {
 }
 
 .product-logo img {
-  height: 64px;
+  height: 96px;
   width: auto;
-  max-width: 200px;
+  max-width: 280px;
   transition: var(--transition);
 }
 
@@ -525,7 +525,7 @@ body {
   }
   
   .product-logo img {
-    height: 56px;
+    height: 80px;
   }
   
   .contact-buttons {
@@ -561,7 +561,7 @@ body {
   }
   
   .product-logo img {
-    height: 48px;
+    height: 72px;
   }
 }
 
