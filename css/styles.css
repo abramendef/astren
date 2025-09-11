@@ -109,6 +109,18 @@
   }
 }
 
+/* Typography */
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+  --font-size-4xl: 2.25rem;
+  --font-size-5xl: 3rem;
+}
+
 /* Base Styles */
 * {
   margin: 0;
@@ -200,17 +212,10 @@ body {
 
 /* Hero Section */
 .hero {
-  padding: calc(var(--header-height) + 120px) 0 120px;
+  padding: calc(var(--header-height) + 100px) 0 100px;
   text-align: center;
-  background: linear-gradient(135deg, rgba(10, 10, 10, 0.95) 0%, rgba(17, 17, 17, 0.95) 100%),
-              url('/assets/Dark_tech_hero_background_83b68998.png');
-  background-size: cover;
-  background-position: center;
-  background-attachment: scroll;
+  background: linear-gradient(135deg, var(--bg) 0%, var(--bg-secondary) 100%);
   position: relative;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
 }
 
 .hero::before {
@@ -220,38 +225,35 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: radial-gradient(circle at 30% 20%, rgba(255, 255, 255, 0.03) 0%, transparent 50%),
-              radial-gradient(circle at 70% 80%, rgba(255, 255, 255, 0.02) 0%, transparent 50%);
+  background: radial-gradient(circle at 30% 20%, rgba(255, 255, 255, 0.02) 0%, transparent 50%),
+              radial-gradient(circle at 70% 80%, rgba(255, 255, 255, 0.01) 0%, transparent 50%);
   pointer-events: none;
 }
 
 .hero-content {
-  max-width: 1000px;
+  max-width: 900px;
   margin: 0 auto;
   position: relative;
   z-index: 2;
-  padding: 0 20px;
 }
 
 .hero-title {
-  font-size: clamp(3rem, 8vw, 5.5rem);
-  font-weight: 800;
-  margin-bottom: 40px;
-  line-height: 1.05;
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-weight: 700;
+  margin-bottom: 32px;
+  line-height: 1.1;
   color: var(--txt);
-  letter-spacing: -0.03em;
-  text-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
+  letter-spacing: -0.02em;
 }
 
 .hero-description {
-  font-size: var(--font-size-2xl);
+  font-size: var(--font-size-xl);
   color: var(--txt-secondary);
-  margin-bottom: 60px;
-  max-width: 800px;
+  margin-bottom: 48px;
+  max-width: 700px;
   margin-left: auto;
   margin-right: auto;
-  line-height: 1.7;
-  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+  line-height: 1.6;
 }
 
 .hero-buttons {
@@ -432,15 +434,11 @@ body {
   background: var(--card-bg);
   border: 1px solid var(--border);
   border-radius: var(--border-radius);
-  padding: 60px 40px;
+  padding: 48px 40px;
   text-align: center;
   transition: var(--transition);
   position: relative;
   overflow: hidden;
-  min-height: 600px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .product-card::before {
@@ -450,45 +448,13 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.2) 100%);
-  opacity: 1;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.03) 0%, transparent 100%);
+  opacity: 0;
   transition: var(--transition);
-  z-index: 1;
-}
-
-.product-card::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  opacity: 0.15;
-  transition: var(--transition);
-  z-index: 1;
-}
-
-.product-card[data-product="gpr"]::after {
-  background-image: url('/assets/AstrenGPR_productivity_interface_mockup_001cba47.png');
-}
-
-.product-card[data-product="ai"]::after {
-  background-image: url('/assets/AstrenAI_futuristic_technology_visualization_e2002c84.png');
-}
-
-.product-card[data-product="games"]::after {
-  background-image: url('/assets/AstrenGames_gaming_interface_mockup_6067b40a.png');
 }
 
 .product-card:hover::before {
-  background: linear-gradient(135deg, rgba(255, 255, 255, 0.03) 0%, rgba(0, 0, 0, 0.3) 100%);
-}
-
-.product-card:hover::after {
-  opacity: 0.25;
+  opacity: 1;
 }
 
 .product-card:hover {
@@ -510,9 +476,7 @@ body {
 }
 
 .product-logo {
-  margin-bottom: 40px;
-  position: relative;
-  z-index: 2;
+  margin-bottom: 32px;
 }
 
 .product-logo img {
@@ -530,8 +494,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  position: relative;
-  z-index: 2;
 }
 
 .product-title {
@@ -621,8 +583,6 @@ body {
   
   .hero {
     padding: calc(var(--header-height) + 60px) 0 80px;
-    background-attachment: scroll;
-    min-height: 80vh;
   }
   
   .hero-buttons {
@@ -654,7 +614,6 @@ body {
   
   .product-card {
     padding: 40px 32px;
-    min-height: 500px;
   }
   
   .product-logo img {
@@ -678,8 +637,6 @@ body {
   
   .hero {
     padding: calc(var(--header-height) + 40px) 0 60px;
-    background-attachment: scroll;
-    min-height: 70vh;
   }
   
   .section {
@@ -693,7 +650,6 @@ body {
   
   .product-card {
     padding: 32px 24px;
-    min-height: 450px;
   }
   
   .product-logo img {
