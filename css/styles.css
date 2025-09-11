@@ -577,8 +577,25 @@ body {
     padding: 0 16px;
   }
   
+  /* Header más pequeño en tablets */
+  :root {
+    --header-height: 100px;
+  }
+  
+  .header {
+    padding: 0 1rem;
+  }
+  
+  .logo img {
+    height: 80px !important;
+  }
+  
   .nav {
     gap: 24px;
+  }
+  
+  .nav-link {
+    font-size: var(--font-size-sm);
   }
   
   .hero {
@@ -627,12 +644,25 @@ body {
 }
 
 @media (max-width: 480px) {
+  /* Header aún más pequeño en móviles */
+  :root {
+    --header-height: 80px;
+  }
+  
+  .header {
+    padding: 0 0.75rem;
+  }
+  
+  .logo img {
+    height: 60px !important;
+  }
+  
   .nav {
-    gap: 20px;
+    gap: 16px;
   }
   
   .nav-link {
-    font-size: var(--font-size-sm);
+    font-size: var(--font-size-xs);
   }
   
   .hero {
