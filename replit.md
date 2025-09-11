@@ -19,12 +19,22 @@ The application follows a traditional static website architecture using vanilla 
 - **Asset Management**: Centralized asset directory structure with SVG logos and images
 
 ### Design System
-The website implements a cohesive brand architecture:
+The website implements a cohesive brand architecture inspired by Apple's design language:
 
 - **Color Palette**: Dark theme with black/white/gray base colors and distinct accent colors for each product line
-- **Typography**: System fonts stack prioritizing Inter, Roboto, and system UI fonts for cross-platform compatibility
-- **Visual Components**: Consistent border radius, subtle shadows, and smooth transitions throughout the interface
-- **Responsive Layout**: Mobile-first responsive design with container-based layout system
+- **Typography**: Enhanced system fonts with larger scales, text shadows, and improved visual hierarchy prioritizing readability
+- **Visual Components**: Consistent border radius, subtle shadows, smooth transitions, and background imagery with subtle overlays
+- **Responsive Layout**: Mobile-first responsive design optimized for various screen sizes with performance considerations
+- **Hero Section**: Full-viewport background with immersive imagery and prominent typography
+- **Product Showcases**: Subtle background images with proper contrast overlays for enhanced visual appeal
+
+### Recent Updates (September 11, 2025)
+- Added impactful hero background image with gradient overlay
+- Integrated product-specific mockup images as subtle background overlays
+- Enhanced typography with larger font sizes and text shadows for improved readability
+- Improved visual hierarchy and spacing throughout the site
+- Fixed scroll animation CSS syntax issues
+- Optimized responsive behavior for background images and parallax effects
 
 ### Navigation and UX
 - **Fixed Header**: Sticky navigation with backdrop blur effect for modern aesthetics
