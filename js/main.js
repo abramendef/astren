@@ -63,8 +63,9 @@ function setupSmoothScrolling() {
  * Setup scroll animations using Intersection Observer
  */
 function setupScrollAnimations() {
-    // Check if animations should be enabled (respect user preferences)
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    // Allow override for testing (can be removed later)
+    const allowMotion = document.documentElement.dataset.allowMotion === 'true';
+    if (!allowMotion && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
         return;
     }
     
@@ -80,9 +81,7 @@ function setupScrollAnimations() {
                     const children = entry.target.children;
                     Array.from(children).forEach((child, index) => {
                         child.style.setProperty('--stagger-delay', `${index * 0.1}s`);
-                        setTimeout(() => {
-                            child.classList.add('animate-in');
-                        }, index * 100);
+                        child.classList.add('animate-in');
                     });
                 }
             }
@@ -96,7 +95,7 @@ function setupScrollAnimations() {
     
     // Observe all elements with animation classes
     const animateElements = document.querySelectorAll(
-        '.animate-on-scroll, .animate-fade, .animate-slide-left, .animate-slide-right, .animate-scale'
+        '.animate-on-scroll, .animate-fade, .animate-slide-left, .animate-slide-right, .animate-scale, .animate-stagger'
     );
     
     animateElements.forEach(element => {

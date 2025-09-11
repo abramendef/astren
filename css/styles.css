@@ -674,19 +674,4 @@ html {
 }
 
 /* Animation keyframes */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.hero-content,
-.feature-card,
-.product-card {
-  animation: fadeInUp 0.8s ease-out;
-}
+/* CSS animations removed to prevent conflicts with scroll animations */
