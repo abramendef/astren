@@ -6,6 +6,9 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Setup smooth scrolling for anchor links
     setupSmoothScrolling();
+    
+    // Setup scroll animations
+    setupScrollAnimations();
 });
 
 /**
@@ -53,6 +56,51 @@ function setupSmoothScrolling() {
                 });
             }
         });
+    });
+}
+
+/**
+ * Setup scroll animations using Intersection Observer
+ */
+function setupScrollAnimations() {
+    // Check if animations should be enabled (respect user preferences)
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        return;
+    }
+    
+    // Create intersection observer
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // Add animation class when element enters viewport
+                entry.target.classList.add('animate-in');
+                
+                // Handle staggered animations
+                if (entry.target.classList.contains('animate-stagger')) {
+                    const children = entry.target.children;
+                    Array.from(children).forEach((child, index) => {
+                        child.style.setProperty('--stagger-delay', `${index * 0.1}s`);
+                        setTimeout(() => {
+                            child.classList.add('animate-in');
+                        }, index * 100);
+                    });
+                }
+            }
+        });
+    }, {
+        // Trigger when 10% of the element is visible
+        threshold: 0.1,
+        // Start animation slightly before element comes into view
+        rootMargin: '0px 0px -50px 0px'
+    });
+    
+    // Observe all elements with animation classes
+    const animateElements = document.querySelectorAll(
+        '.animate-on-scroll, .animate-fade, .animate-slide-left, .animate-slide-right, .animate-scale'
+    );
+    
+    animateElements.forEach(element => {
+        observer.observe(element);
     });
 }
 
