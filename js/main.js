@@ -1,13 +1,19 @@
 // Main JavaScript file for Astren website
 
-document.addEventListener('DOMContentLoaded', function() {
+// Ejecutar inmediatamente al cargar
+(function() {
     // Set current year in footer
     setCurrentYear();
     
+    // Setup scroll animations inmediatamente
+    setupScrollAnimations();
+    
     // Setup smooth scrolling for anchor links
     setupSmoothScrolling();
-    
-    // Setup scroll animations
+})();
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Backup execution después de DOM loaded
     setupScrollAnimations();
 });
 
@@ -63,11 +69,10 @@ function setupSmoothScrolling() {
  * Setup scroll animations using Intersection Observer
  */
 function setupScrollAnimations() {
-    // Allow override for testing (can be removed later)
-    const allowMotion = document.documentElement.dataset.allowMotion === 'true';
-    if (!allowMotion && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-        return;
-    }
+    // Siempre activar las animaciones para debug
+    // if (!document.documentElement.dataset.allowMotion && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    //     return;
+    // }
     
     // Create intersection observer
     const observer = new IntersectionObserver((entries) => {
@@ -75,6 +80,11 @@ function setupScrollAnimations() {
             if (entry.isIntersecting) {
                 // Add animation class when element enters viewport
                 entry.target.classList.add('animate-in');
+                
+                // Force animation via JavaScript
+                entry.target.style.opacity = '1';
+                entry.target.style.transform = 'translateY(0)';
+                entry.target.style.transition = 'all 0.8s cubic-bezier(0.25, 0.1, 0.25, 1)';
                 
                 // Handle staggered animations
                 if (entry.target.classList.contains('animate-stagger')) {
@@ -98,7 +108,10 @@ function setupScrollAnimations() {
         '.animate-on-scroll, .animate-fade, .animate-slide-left, .animate-slide-right, .animate-scale, .animate-stagger'
     );
     
+    // Hacer visibles los elementos que deberían estar ocultos inicialmente
     animateElements.forEach(element => {
+        element.style.opacity = '0';
+        element.style.transform = 'translateY(40px)';
         observer.observe(element);
     });
 }
