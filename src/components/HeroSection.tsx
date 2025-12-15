@@ -17,29 +17,20 @@ const HeroSection = () => {
       {/* Content */}
       <div className="container relative z-10 px-4 md:px-6 py-20 md:py-32">
         <div className="max-w-4xl mx-auto text-center">
-          {/* Badge */}
-          <div className="animate-fade-up mb-8">
-            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary/50 border border-border text-sm text-muted-foreground">
-              <span className="w-2 h-2 rounded-full bg-gpr animate-pulse" />
-              Empresa de tecnología
-            </span>
-          </div>
-
           {/* Main heading */}
-          <h1 className="animate-fade-up-delay-1 font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] tracking-tight mb-6">
-            Marca madre que{" "}
-            <span className="text-gradient">crea el futuro</span>
+          <h1 className="animate-fade-up font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] tracking-tight mb-6">
+            Empresa de tecnología que funciona como marca madre
           </h1>
 
           {/* Description */}
-          <p className="animate-fade-up-delay-2 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed">
+          <p className="animate-fade-up-delay-1 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed">
             Astren no está limitada a un solo producto. Creamos y conectamos múltiples 
             soluciones tecnológicas en distintos ámbitos: cada una con su propia identidad, 
             pero bajo una misma visión.
           </p>
 
           {/* CTA Buttons */}
-          <div className="animate-fade-up-delay-3 flex flex-col sm:flex-row items-center justify-center gap-4">
+          <div className="animate-fade-up-delay-2 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button variant="hero" size="xl" asChild>
               <a href="#productos">
                 Explorar ecosistema

@@ -45,16 +45,9 @@ const ProductsSection = () => {
 
       <div className="container relative z-10 px-4 md:px-6">
         <div className="max-w-3xl mx-auto text-center mb-16 md:mb-20">
-          <span className="inline-block text-sm font-medium text-muted-foreground uppercase tracking-wider mb-4">
-            Productos
-          </span>
           <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
             Nuestro ecosistema
           </h2>
-          <p className="text-muted-foreground text-lg md:text-xl leading-relaxed">
-            Cada producto resuelve problemas diferentes, pero todos comparten 
-            nuestra esencia de innovación y diseño minimalista.
-          </p>
         </div>
 
         {/* Products grid */}
