@@ -17,7 +17,7 @@ const features = [
     icon: Eye,
     title: "Visión amplia",
     description:
-      "No nos definimos por un único producto. Nuestra misión es expandir las posibilidades tecnológicas.",
+      "AstrenGPR es solo el primer paso. La idea de Astren va mucho más allá de la productividad.",
   },
 ];
 
@@ -29,16 +29,14 @@ const AboutSection = () => {
 
       <div className="container relative z-10 px-4 md:px-6">
         <div className="max-w-3xl mx-auto text-center mb-16 md:mb-20">
-          <span className="inline-block text-sm font-medium text-muted-foreground uppercase tracking-wider mb-4">
-            Sobre Astren
-          </span>
           <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
             Una empresa, múltiples productos
           </h2>
           <p className="text-muted-foreground text-lg md:text-xl leading-relaxed">
             Astren es una empresa de tecnología que funciona como marca madre. 
             No estamos limitados a un solo producto: creamos soluciones en productividad, 
-            inteligencia artificial, entretenimiento interactivo y más.
+            inteligencia artificial, entretenimiento interactivo y más. 
+            Cada producto tiene identidad propia, pero todos comparten nuestra esencia de innovación y diseño minimalista.
           </p>
         </div>
 
