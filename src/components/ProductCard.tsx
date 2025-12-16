@@ -74,17 +74,28 @@ const ProductCard = ({
       </h3>
       <p className="text-muted-foreground mb-6 min-h-[48px]">{description}</p>
 
-      <Button
-        variant={color}
-        size="lg"
-        className="w-full group/btn mt-auto"
-        asChild
-      >
-        <a href={href} target={href.startsWith("http") ? "_blank" : undefined} rel={href.startsWith("http") ? "noopener noreferrer" : undefined}>
+      {name === "AstrenGames" ? (
+        <Button
+          variant={color}
+          size="lg"
+          className="w-full group/btn mt-auto opacity-60 cursor-not-allowed"
+          disabled
+        >
           {buttonText}
-          <ArrowUpRight className="w-4 h-4 transition-transform duration-300 group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5" />
-        </a>
-      </Button>
+        </Button>
+      ) : (
+        <Button
+          variant={color}
+          size="lg"
+          className="w-full group/btn mt-auto"
+          asChild
+        >
+          <a href={href} target={href.startsWith("http") ? "_blank" : undefined} rel={href.startsWith("http") ? "noopener noreferrer" : undefined}>
+            {buttonText}
+            <ArrowUpRight className="w-4 h-4 transition-transform duration-300 group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5" />
+          </a>
+        </Button>
+      )}
     </div>
   );
 };
