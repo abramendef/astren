@@ -35,6 +35,15 @@ const colorClasses = {
 
 const ProductCard = ({
   name,
+  description,
+  status,
+  statusLabel,
+  color,
+  href,
+  buttonText,
+  logoLetter,
+}: ProductCardProps) => {
+  const colors = colorClasses[color];
   return (
     <div className={`glass-card p-8 md:p-10 group transition-all duration-500 ${colors.border}`}>
       {/* Logo GPR en vez de texto para AstrenGPR */}
@@ -67,6 +76,7 @@ const ProductCard = ({
       </div>
     </div>
   );
+};
       <p className="text-muted-foreground text-lg leading-relaxed mb-6">
         {description}
       </p>
