@@ -20,7 +20,43 @@ const Header = () => {
     { href: "#contacto", label: "Contacto" },
   ];
 
+
+  // Lógica robusta y limpia para sección activa
+  const [activeSection, setActiveSection] = useState("");
+  useEffect(() => {
+    const sectionIds = navLinks.map(link => link.href.replace('#', ''));
+    const headerOffset = 80;
+    const handleScroll = () => {
+      const scrollY = window.scrollY;
+      let current = "";
+      for (let i = 0; i < sectionIds.length; i++) {
+        const el = document.getElementById(sectionIds[i]);
+        if (el) {
+          const sectionTop = el.offsetTop - headerOffset - 1;
+          if (scrollY >= sectionTop) {
+            current = `#${sectionIds[i]}`;
+          }
+        }
+      }
+      // Si estamos cerca del final de la página, forzar contacto
+      const scrollBottom = window.innerHeight + window.scrollY;
+      const docHeight = document.body.offsetHeight;
+      if (docHeight - scrollBottom < 10) {
+        current = navLinks[navLinks.length - 1].href;
+      }
+      setActiveSection(current);
+    };
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    handleScroll();
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [navLinks]);
+
   return (
+    <>
+      {/* Forzar a Tailwind a incluir las clases dinámicas */}
+      <div className="hidden">
+        bg-primary text-foreground text-muted-foreground hover:text-foreground
+      </div>
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         isScrolled
@@ -38,16 +74,28 @@ const Header = () => {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center justify-center gap-8 col-start-2">
-            {navLinks.map((link) => (
-              <a
-                key={link.href}
-                href={link.href}
-                className="text-muted-foreground hover:text-foreground transition-colors duration-300 text-sm font-medium"
-              >
-                {link.label}
-              </a>
-            ))}
+          <nav className="hidden md:flex items-center justify-center gap-8 col-start-2 overflow-visible">
+            {navLinks.map((link) => {
+              const isActive = activeSection === link.href;
+              return (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  className={`relative text-sm font-medium transition-colors duration-300 px-1 pb-2
+                    ${isActive ? "text-foreground" : "text-muted-foreground hover:text-foreground"}`}
+                  style={isActive ? { fontWeight: 600 } : {}}
+                  aria-current={isActive ? "page" : undefined}
+                >
+                  {link.label}
+                  {isActive && (
+                    <span
+                      className="absolute left-0 bottom-0 w-full h-0.5 bg-primary rounded-full transition-all duration-300 pointer-events-none"
+                      aria-hidden="true"
+                    />
+                  )}
+                </a>
+              );
+            })}
           </nav>
 
           {/* CTA Button y Mobile Menu Toggle */}
@@ -76,16 +124,28 @@ const Header = () => {
         }`}
       >
         <nav className="container mx-auto px-4 py-6 flex flex-col gap-4">
-          {navLinks.map((link) => (
-            <a
-              key={link.href}
-              href={link.href}
-              onClick={() => setIsMobileMenuOpen(false)}
-              className="text-foreground hover:text-muted-foreground transition-colors duration-300 text-lg font-medium py-2"
-            >
-              {link.label}
-            </a>
-          ))}
+          {navLinks.map((link) => {
+            const isActive = activeSection === link.href;
+            return (
+              <a
+                key={link.href}
+                href={link.href}
+                onClick={() => setIsMobileMenuOpen(false)}
+                className={`relative text-lg font-medium py-2 transition-colors duration-300 px-1 pb-2
+                  ${isActive ? "text-foreground" : "text-muted-foreground hover:text-foreground"}`}
+                aria-current={isActive ? "page" : undefined}
+                style={isActive ? { fontWeight: 600 } : {}}
+              >
+                {link.label}
+                {isActive && (
+                  <span
+                    className="absolute left-0 bottom-0 w-full h-0.5 bg-primary rounded-full transition-all duration-300 pointer-events-none"
+                    aria-hidden="true"
+                  />
+                )}
+              </a>
+            );
+          })}
           <Button variant="hero" size="lg" className="mt-4" asChild>
             <a href="#productos" onClick={() => setIsMobileMenuOpen(false)}>
               Explorar ecosistema
@@ -94,6 +154,7 @@ const Header = () => {
         </nav>
       </div>
     </header>
+    </>
   );
 };
 
