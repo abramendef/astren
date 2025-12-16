@@ -45,7 +45,7 @@ const ProductCard = ({
 }: ProductCardProps) => {
   const colors = colorClasses[color];
   return (
-    <div className={`glass-card p-8 md:p-10 group transition-all duration-500 ${colors.border} min-h-[420px] md:min-h-[480px] flex flex-col`}>
+    <div className={`glass-card p-8 md:p-10 group transition-all duration-500 ${colors.border} min-h-[340px] md:min-h-[380px] flex flex-col`}>
       {/* Status badge */}
       <div className="mb-2">
         <span className={`inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-secondary/50 text-xs font-medium ${colors.text}`}>
