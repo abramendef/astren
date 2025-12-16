@@ -36,9 +36,7 @@ const colorClasses = {
 const ProductCard = ({
   name,
   return (
-    <div
-      className={`glass-card p-8 md:p-10 group transition-all duration-500 ${colors.border}`}
-    >
+    <div className={`glass-card p-8 md:p-10 group transition-all duration-500 ${colors.border}`}>
       {/* Logo GPR en vez de texto para AstrenGPR */}
       {name === "AstrenGPR" ? (
         <div className="mb-6 flex justify-center">
@@ -48,9 +46,7 @@ const ProductCard = ({
 
       {/* Status badge */}
       <div className="mb-4">
-        <span
-          className={`inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-secondary/50 text-xs font-medium ${colors.text}`}
-        >
+        <span className={`inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-secondary/50 text-xs font-medium ${colors.text}`}>
           <span className={`w-1.5 h-1.5 rounded-full ${colors.bg}`} />
           {statusLabel}
         </span>
