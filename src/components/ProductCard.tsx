@@ -66,36 +66,20 @@ const ProductCard = ({
       </h3>
       <p className="text-muted-foreground mb-6 min-h-[48px]">{description}</p>
 
-      <div className="flex items-center gap-2 mt-auto">
-        <Button asChild variant="outline" className={`group/button ${colors.text}`}>
-          <a href={href} target="_blank" rel="noopener noreferrer">
-            {buttonText}
-            <ArrowUpRight className="w-4 h-4 ml-1 group-hover/button:translate-x-1 group-hover/button:-translate-y-1 transition-transform duration-200" />
-          </a>
-        </Button>
-      </div>
-    </div>
-  );
+          <Button
+            variant={color}
+            size="lg"
+            className="w-full group/btn"
+            asChild
+          >
+            <a href={href} target={href.startsWith("http") ? "_blank" : undefined} rel={href.startsWith("http") ? "noopener noreferrer" : undefined}>
+              {buttonText}
+              <ArrowUpRight className="w-4 h-4 transition-transform duration-300 group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5" />
+            </a>
+          </Button>
+        </div>
+      );
 };
-      <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-        {description}
-      </p>
-      <p className="text-sm text-muted-foreground/70 mb-8">{status}</p>
-
-      {/* Button */}
-      <Button
-        variant={color}
-        size="lg"
-        className="w-full group/btn"
-        asChild
-      >
-        <a href={href} target={href.startsWith("http") ? "_blank" : undefined} rel={href.startsWith("http") ? "noopener noreferrer" : undefined}>
-          {buttonText}
-          <ArrowUpRight className="w-4 h-4 transition-transform duration-300 group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5" />
-        </a>
-      </Button>
-    </div>
-  );
 };
 
 export default ProductCard;
