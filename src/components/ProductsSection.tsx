@@ -18,7 +18,7 @@ const products = [
     statusLabel: "Demo",
     color: "ai" as const,
     href: "https://ai.astren.app/",
-    buttonText: "Avisarme cuando esté",
+    buttonText: "Ir a AI",
     logoLetter: "AI",
   },
   {
