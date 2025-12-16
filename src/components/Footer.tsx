@@ -7,12 +7,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-lg bg-foreground flex items-center justify-center">
-              <span className="text-background font-heading font-bold text-lg">A</span>
-            </div>
-            <span className="font-heading font-semibold text-lg text-foreground">
-              Astren
-            </span>
+            <img src="/logo_horizontal_astren.svg" alt="Logo Astren" className="h-10 w-auto" />
           </div>
 
           {/* Copyright */}
