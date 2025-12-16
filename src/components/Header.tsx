@@ -32,12 +32,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2 group">
-            <div className="w-8 h-8 md:w-10 md:h-10 rounded-lg bg-foreground flex items-center justify-center transition-transform duration-300 group-hover:scale-110">
-              <span className="text-background font-heading font-bold text-lg md:text-xl">A</span>
-            </div>
-            <span className="font-heading font-semibold text-lg md:text-xl text-foreground">
-              Astren
-            </span>
+            <img src="/logo_horizontal_astren.svg" alt="Logo Astren" className="h-10 md:h-12 w-auto" />
           </a>
 
           {/* Desktop Navigation */}
