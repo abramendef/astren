@@ -35,22 +35,16 @@ const colorClasses = {
 
 const ProductCard = ({
   name,
-  description,
-  status,
-  statusLabel,
-  color,
-  href,
-  buttonText,
-  logoLetter,
-}: ProductCardProps) => {
-  const colors = colorClasses[color];
-
   return (
     <div
       className={`glass-card p-8 md:p-10 group transition-all duration-500 ${colors.border}`}
     >
-      {/* Logo */}
-      {/* Logo eliminado por solicitud */}
+      {/* Logo GPR en vez de texto para AstrenGPR */}
+      {name === "AstrenGPR" ? (
+        <div className="mb-6 flex justify-center">
+          <img src="/logo_astrenGPR_horizontal.svg" alt="Logo GPR" className="h-10 md:h-12 w-auto" />
+        </div>
+      ) : null}
 
       {/* Status badge */}
       <div className="mb-4">
@@ -62,10 +56,21 @@ const ProductCard = ({
         </span>
       </div>
 
-      {/* Content */}
-      <h3 className="font-heading text-2xl md:text-3xl font-bold mb-3">
-        {name}
+      <h3 className="font-heading text-xl md:text-2xl font-bold mb-2 text-foreground">
+        {name === "AstrenGPR" ? null : name}
       </h3>
+      <p className="text-muted-foreground mb-6 min-h-[48px]">{description}</p>
+
+      <div className="flex items-center gap-2 mt-auto">
+        <Button asChild variant="outline" className={`group/button ${colors.text}`}>
+          <a href={href} target="_blank" rel="noopener noreferrer">
+            {buttonText}
+            <ArrowUpRight className="w-4 h-4 ml-1 group-hover/button:translate-x-1 group-hover/button:-translate-y-1 transition-transform duration-200" />
+          </a>
+        </Button>
+      </div>
+    </div>
+  );
       <p className="text-muted-foreground text-lg leading-relaxed mb-6">
         {description}
       </p>
