@@ -65,7 +65,7 @@ const ProductCard = ({
         </div>
       ) : name === "AstrenGames" ? (
         <div className="mb-4 flex justify-center">
-          <img src="/logo_astrenGames.svg" alt="Logo Games" className="h-14 md:h-20 w-auto max-w-[180px]" />
+          <img src="/logo_astrenGames.svg" alt="Logo Games" className="h-12 md:h-16 w-auto max-w-[150px]" />
         </div>
       ) : null}
 
