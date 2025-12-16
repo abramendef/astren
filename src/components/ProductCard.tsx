@@ -73,7 +73,7 @@ const ProductCard = ({
       <Button
         variant={color}
         size="lg"
-        className="w-full group/btn"
+        className="w-full group/btn mt-auto"
         asChild
       >
         <a href={href} target={href.startsWith("http") ? "_blank" : undefined} rel={href.startsWith("http") ? "noopener noreferrer" : undefined}>
