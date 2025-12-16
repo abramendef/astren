@@ -5,7 +5,7 @@ const products = [
     name: "AstrenGPR",
     description: "El primer paso: medir y mejorar la productividad con reputación.",
     status: "(activo - nuestro primer producto)",
-    statusLabel: "Activo",
+    statusLabel: "Demo",
     color: "gpr" as const,
     href: "https://gpr.astren.app/",
     buttonText: "Ir a GPR",
