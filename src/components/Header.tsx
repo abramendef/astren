@@ -29,11 +29,11 @@ const Header = () => {
       }`}
     >
       <div className="container mx-auto px-4 md:px-6">
-        <div className="grid grid-cols-3 items-center h-16 md:h-20">
+        <div className="grid grid-cols-3 items-center h-24 md:h-32">
           {/* Logo */}
           <div className="flex items-center">
             <a href="#" className="flex items-center gap-2 group">
-              <img src="/logo_horizontal_astren.svg" alt="Logo Astren" className="h-10 md:h-12 w-auto" />
+              <img src="/logo_horizontal_astren.svg" alt="Logo Astren" className="h-14 md:h-20 w-auto" />
             </a>
           </div>
 
