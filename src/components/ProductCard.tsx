@@ -50,15 +50,7 @@ const ProductCard = ({
       className={`glass-card p-8 md:p-10 group transition-all duration-500 ${colors.border}`}
     >
       {/* Logo */}
-      <div className="mb-8">
-        <div
-          className={`w-16 h-16 md:w-20 md:h-20 rounded-2xl ${colors.bg} flex items-center justify-center transition-all duration-500 group-hover:scale-110 ${colors.glow}`}
-        >
-          <span className="text-foreground font-heading font-bold text-2xl md:text-3xl">
-            {logoLetter}
-          </span>
-        </div>
-      </div>
+      {/* Logo eliminado por solicitud */}
 
       {/* Status badge */}
       <div className="mb-4">
