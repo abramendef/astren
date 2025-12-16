@@ -57,11 +57,11 @@ const ProductCard = ({
       {/* Logo GPR o AI en vez de texto */}
       {name === "AstrenGPR" ? (
         <div className="mb-4 flex justify-center">
-          <img src="/logo_astrenGPR_horizontal.svg" alt="Logo GPR" className="h-14 md:h-20 w-auto" />
+          <img src="/logo_astrenGPR_horizontal.svg" alt="Logo GPR" className="h-14 md:h-20 w-auto max-w-[180px]" />
         </div>
       ) : name === "AstrenAI" ? (
         <div className="mb-4 flex justify-center">
-          <img src="/logo_astrenAI_horizontal.svg" alt="Logo AI" className="h-14 md:h-20 w-auto" />
+          <img src="/logo_astrenAI_horizontal.svg" alt="Logo AI" className="h-14 md:h-20 w-auto max-w-[180px]" />
         </div>
       ) : null}
 
