@@ -63,10 +63,14 @@ const ProductCard = ({
         <div className="mb-4 flex justify-center">
           <img src="/logo_astrenAI_horizontal.svg" alt="Logo AI" className="h-14 md:h-20 w-auto max-w-[180px]" />
         </div>
+      ) : name === "AstrenGames" ? (
+        <div className="mb-4 flex justify-center">
+          <img src="/logo_astrenGames.svg" alt="Logo Games" className="h-14 md:h-20 w-auto max-w-[180px]" />
+        </div>
       ) : null}
 
       <h3 className="font-heading text-xl md:text-2xl font-bold mb-2 text-foreground">
-        {name === "AstrenGPR" || name === "AstrenAI" ? null : name}
+        {name === "AstrenGPR" || name === "AstrenAI" || name === "AstrenGames" ? null : name}
       </h3>
       <p className="text-muted-foreground mb-6 min-h-[48px]">{description}</p>
 
