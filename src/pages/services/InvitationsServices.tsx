@@ -292,7 +292,7 @@ const InvitationsServices = () => {
                 },
                 {
                   q: "¿Puedo cambiar el contenido después de crear la invitación?",
-                  a: "Con el Plan Premium+ sí. Incluye cambios posteriores al evento. Los otros planes son más limitados en ajustes posteriores."
+                  a: "Sí, puedes hacer cambios antes del evento. El Plan Premium+ incluye más cambios y ajustes. Los otros planes permiten ajustes limitados."
                 },
                 {
                   q: "¿Cómo comparten la invitación los invitados?",
