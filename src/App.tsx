@@ -8,6 +8,11 @@ import Index from "./pages/Index";
 import ServicesIndex from "./pages/services/ServicesIndex";
 import WebServices from "./pages/services/WebServices";
 import InvitationsServices from "./pages/services/InvitationsServices";
+import Blog from "./pages/Blog";
+import ErroresInvitacion from "./pages/blog/ErroresInvitacion";
+import CostoPaginaWeb from "./pages/blog/CostoPaginaWeb";
+import DominioUnico from "./pages/blog/DominioUnico";
+import ContactPage from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -24,6 +29,11 @@ const App = () => (
             <Route path="/services" element={<ServicesIndex />} />
             <Route path="/services/web" element={<WebServices />} />
             <Route path="/services/invitaciones" element={<InvitationsServices />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/errores-invitacion-boda" element={<ErroresInvitacion />} />
+            <Route path="/blog/costo-pagina-web" element={<CostoPaginaWeb />} />
+            <Route path="/blog/dominio-perfecto" element={<DominioUnico />} />
+            <Route path="/contact" element={<ContactPage />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>

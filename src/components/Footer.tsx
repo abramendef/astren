@@ -61,6 +61,12 @@ const Footer = () => {
                   Servicios
                 </a>
                 <a
+                  href="/blog"
+                  className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-300"
+                >
+                  Blog
+                </a>
+                <a
                   href="#contacto"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-300"
                 >
