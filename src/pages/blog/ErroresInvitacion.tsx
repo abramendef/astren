@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { useSEO } from "@/hooks/useSEO";
@@ -12,10 +11,6 @@ const BlogArticleErroresInvitacion = () => {
     keywords: "invitación de boda, invitación digital, errores comunes, boda, invitación personalizada",
     canonicalUrl: "https://astren.app/blog/errores-invitacion-boda",
   });
-
-  useEffect(() => {
-    window.scrollTo({ top: 0, behavior: "auto" });
-  }, []);
 
   return (
     <div className="min-h-screen bg-background">

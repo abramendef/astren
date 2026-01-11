@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { useSEO } from "@/hooks/useSEO";
@@ -12,10 +11,6 @@ const BlogArticleCostoPaginaWeb = () => {
     keywords: "precio página web, costo página web 2026, presupuesto web, desarrollo web",
     canonicalUrl: "https://astren.app/blog/costo-pagina-web",
   });
-
-  useEffect(() => {
-    window.scrollTo({ top: 0, behavior: "auto" });
-  }, []);
 
   return (
     <div className="min-h-screen bg-background">
