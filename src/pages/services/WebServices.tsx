@@ -2,8 +2,17 @@ import ServicesHeader from "@/components/ServicesHeader";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import { useSEO } from "@/hooks/useSEO";
+import { WebServicesSchema } from "@/components/SEOSchema";
 
 const WebServices = () => {
+  useSEO({
+    title: "Páginas Web Profesionales - Portfolio, E-commerce, Landing Pages | Astren",
+    description: "Desarrollo de páginas web personalizadas: portfolios, blogs, sitios de negocios, tiendas online, landing pages y sitios corporativos. Incluye hosting, dominio astren.app y SEO básico. Cotización gratuita al +52 81 3877 8770.",
+    keywords: "páginas web, desarrollo web, diseño web, e-commerce, tienda online, landing page, portfolio web, blog, sitio corporativo, SEO, hosting, dominio, Nuevo León, México",
+    canonicalUrl: "https://astren.app/services/web",
+  });
+
   const webTypes = [
     {
       title: "Portfolio / CV Digital",
@@ -42,6 +51,8 @@ const WebServices = () => {
       <ServicesHeader />
       
       <main className="pt-20 md:pt-24">
+        <WebServicesSchema />
+        
         {/* Hero */}
         <section className="relative py-24 md:py-32 overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-b from-background via-secondary/10 to-background" />

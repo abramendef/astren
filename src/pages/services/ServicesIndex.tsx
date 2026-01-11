@@ -2,8 +2,16 @@ import ServicesHeader from "@/components/ServicesHeader";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Globe, Mail } from "lucide-react";
+import { useSEO } from "@/hooks/useSEO";
 
 const ServicesIndex = () => {
+  useSEO({
+    title: "Servicios - Páginas Web e Invitaciones Digitales | Astren",
+    description: "Creamos páginas web profesionales y invitaciones digitales personalizadas. Desarrollo web desde $0, invitaciones desde $600 MXN. Portfolio, e-commerce, landing pages, blogs, invitaciones para bodas, XV años y eventos.",
+    keywords: "páginas web, desarrollo web, invitaciones digitales, invitaciones web, e-commerce, landing page, portfolio, diseño web, invitaciones bodas, invitaciones XV años, México",
+    canonicalUrl: "https://astren.app/services",
+  });
+
   const services = [
     {
       title: "Páginas Web Personalizadas",

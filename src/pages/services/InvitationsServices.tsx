@@ -2,8 +2,17 @@ import ServicesHeader from "@/components/ServicesHeader";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Check } from "lucide-react";
+import { useSEO } from "@/hooks/useSEO";
+import { InvitationsSchema } from "@/components/SEOSchema";
 
 const InvitationsServices = () => {
+  useSEO({
+    title: "Invitaciones Web Personalizadas para Bodas, XV Años y Eventos | Astren",
+    description: "Invitaciones digitales elegantes con RSVP, galería de fotos y música. Planes desde $600 MXN. Diseño personalizado para bodas, XV años, bautizos, graduaciones y cualquier evento especial. Activas desde 1 mes hasta para siempre.",
+    keywords: "invitaciones digitales, invitaciones web, invitaciones bodas, invitaciones XV años, invitaciones bautizo, RSVP online, galería fotos eventos, invitaciones personalizadas, México",
+    canonicalUrl: "https://astren.app/services/invitaciones",
+  });
+
   const plans = [
     {
       name: "Plan Esencial",
@@ -75,6 +84,8 @@ const InvitationsServices = () => {
       <ServicesHeader />
       
       <main className="pt-20 md:pt-24">
+        <InvitationsSchema />
+        
         {/* Hero */}
         <section className="relative py-24 md:py-32 overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-b from-background via-secondary/10 to-background" />
