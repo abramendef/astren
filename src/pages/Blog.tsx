@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { useSEO } from "@/hooks/useSEO";
@@ -11,6 +12,10 @@ const BlogIndex = () => {
     keywords: "blog, desarrollo web, guías, tips, e-commerce, invitaciones digitales, diseño web",
     canonicalUrl: "https://astren.app/blog",
   });
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "auto" });
+  }, []);
 
   const articles = [
     {
