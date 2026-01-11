@@ -22,7 +22,7 @@
 **Página principal (/):**
 - Primarias: "astren", "tecnología", "software"
 - Secundarias: "páginas web", "invitaciones digitales", "desarrollo web"
-- Long-tail: "desarrollo software nuevo león", "páginas web méxico"
+- Long-tail: "desarrollo software Mazatlán", "páginas web Sinaloa", "tecnología Mazatlán"
 
 **Servicios Web (/services/web):**
 - Primarias: "páginas web profesionales", "desarrollo web", "diseño web"
@@ -63,7 +63,7 @@ Casos de éxito:
 
 **Frecuencia recomendada:** 2-4 artículos por mes (mínimo 1000 palabras cada uno)
 
-### FASE 2: SEO Local (Para Nuevo León)
+### FASE 2: SEO Local (Para Mazatlán, Sinaloa)
 
 1. **Google Business Profile**
    - Crear perfil verificado
@@ -72,14 +72,14 @@ Casos de éxito:
    - Publicar actualizaciones semanales
 
 2. **Directorios locales**
-   - Registrar en directorios de negocios de Nuevo León
+   - Registrar en directorios de negocios de Mazatlán y Sinaloa
    - Cámaras de comercio locales
    - Directorios de tecnología México
 
 3. **Keywords locales**
-   - "desarrollo web Monterrey"
-   - "páginas web Nuevo León"
-   - "invitaciones digitales Monterrey"
+   - "desarrollo web Mazatlán"
+   - "páginas web Sinaloa"
+   - "invitaciones digitales Mazatlán"
 
 ### FASE 3: Link Building (Backlinks de calidad)
 
@@ -88,7 +88,7 @@ Casos de éxito:
 1. **Guest posting**: Escribir artículos para blogs relevantes
    - Blogs de tecnología México
    - Portales de bodas y eventos
-   - Medios locales de Nuevo León
+   - Medios locales de Mazatlán y Sinaloa
 
 2. **Partnerships**: Colaborar con complementarios
    - Fotógrafos (para invitaciones)
@@ -219,8 +219,9 @@ Casos de éxito:
 - "páginas web" - EXTREMA (empresas con presupuestos de $100k+ en SEO)
 - "desarrollo web" - ALTA
 - "invitaciones digitales" - MEDIA
-- "páginas web Nuevo León" - MEDIA-BAJA ⭐ **ENFÓCATE AQUÍ PRIMERO**
-- "invitaciones web monterrey" - BAJA ⭐ **ENFÓCATE AQUÍ PRIMERO**
+- "páginas web Mazatlán" - BAJA ⭐ **ENFÓCATE AQUÍ PRIMERO**
+- "invitaciones web Mazatlán" - MUY BAJA ⭐⭐ **EXCELENTE OPORTUNIDAD**
+- "desarrollo web Sinaloa" - MEDIA-BAJA ⭐ **ENFÓCATE AQUÍ PRIMERO**
 
 ## 🏆 Recomendación final
 

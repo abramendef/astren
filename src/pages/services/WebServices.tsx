@@ -9,7 +9,7 @@ const WebServices = () => {
   useSEO({
     title: "Páginas Web Profesionales - Portfolio, E-commerce, Landing Pages | Astren",
     description: "Desarrollo de páginas web personalizadas: portfolios, blogs, sitios de negocios, tiendas online, landing pages y sitios corporativos. Incluye hosting, dominio astren.app y SEO básico. Cotización gratuita al +52 81 3877 8770.",
-    keywords: "páginas web, desarrollo web, diseño web, e-commerce, tienda online, landing page, portfolio web, blog, sitio corporativo, SEO, hosting, dominio, Nuevo León, México",
+    keywords: "páginas web, desarrollo web, diseño web, e-commerce, tienda online, landing page, portfolio web, blog, sitio corporativo, SEO, hosting, dominio, Mazatlán, Sinaloa, México",
     canonicalUrl: "https://astren.app/services/web",
   });
 

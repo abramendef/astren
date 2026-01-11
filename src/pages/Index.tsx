@@ -12,7 +12,7 @@ const Index = () => {
   useSEO({
     title: "Astren - Tecnología para equipos, productividad y creatividad",
     description: "Astren desarrolla software innovador: AstrenGPR para gestión de equipos, AstrenAI para inteligencia artificial, AstrenGames para juegos móviles. Además, creamos páginas web e invitaciones digitales personalizadas.",
-    keywords: "astren, tecnología, software, páginas web, invitaciones digitales, desarrollo web, e-commerce, AstrenGPR, AstrenAI, AstrenGames, Nuevo León, México",
+    keywords: "astren, tecnología, software, páginas web, invitaciones digitales, desarrollo web, e-commerce, AstrenGPR, AstrenAI, AstrenGames, Mazatlán, Sinaloa, México",
     canonicalUrl: "https://astren.app/",
   });
 

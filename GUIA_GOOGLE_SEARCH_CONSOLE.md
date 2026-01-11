@@ -47,7 +47,7 @@ Para cada página importante:
 
 - **24-48 horas**: Google descubrirá tu sitio
 - **3-7 días**: Empezarás a aparecer para búsquedas muy específicas
-- **2-4 semanas**: Aparecerás para "invitaciones web monterrey" o "invitaciones digitales nuevo león"
+- **2-4 semanas**: Aparecerás para "invitaciones web Mazatlán" o "invitaciones digitales Sinaloa"
 - **1-3 meses**: Posibilidad de aparecer para "invitaciones web" (página 2-3)
 - **6+ meses**: Top 10 para "invitaciones web" (con contenido constante)
 
@@ -60,9 +60,9 @@ Si necesitas clientes YA:
 1. Ve a: https://ads.google.com
 2. Crea campaña de búsqueda
 3. Keywords: 
-   - "invitaciones digitales monterrey"
-   - "invitaciones web méxico"
-   - "invitación digital para boda"
+   - "invitaciones digitales Mazatlán"
+   - "invitaciones web Sinaloa"
+   - "invitación digital para boda Mazatlán"
 4. Presupuesto: $50-100 USD/día
 5. Envía a: https://astren.app/services/invitaciones
 
@@ -74,7 +74,7 @@ Si necesitas clientes YA:
 2. Crea perfil de negocio
 3. Nombre: "Astren - Invitaciones Web y Páginas Digitales"
 4. Categoría: "Servicio de diseño web" + "Servicio de diseño gráfico"
-5. Ubicación: Tu dirección en Nuevo León
+5. Ubicación: Tu dirección en Mazatlán, Sinaloa
 6. Teléfono: +52 81 3877 8770
 7. Sitio web: https://astren.app/services/invitaciones
 8. Verifica con tarjeta postal (llega en 5-7 días)
@@ -85,8 +85,8 @@ Si necesitas clientes YA:
 
 Enfócate en keywords de "long-tail" (menos competidas):
 
-- ✅ "invitaciones web monterrey"
-- ✅ "invitaciones digitales nuevo león"
+- ✅ "invitaciones web Mazatlán" ⭐ **MUY POCO COMPETIDO**
+- ✅ "invitaciones digitales Sinaloa" ⭐ **MUY POCO COMPETIDO**
 - ✅ "invitación digital con rsvp"
 - ✅ "invitación de boda digital personalizada"
 - ✅ "crear invitación web para xv años"
@@ -113,7 +113,7 @@ Este keyword tiene empresas que llevan AÑOS optimizando y gastan miles de dóla
 
 **Tu mejor estrategia SHORT-TERM:**
 1. Google Ads para tráfico inmediato
-2. SEO local (Monterrey/Nuevo León) 
+2. SEO local (Mazatlán/Sinaloa) ⭐ **EXCELENTE - Muy poca competencia**
 3. Long-tail keywords específicos
 4. Google Business Profile
 
