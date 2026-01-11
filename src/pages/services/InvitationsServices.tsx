@@ -129,7 +129,7 @@ const InvitationsServices = () => {
                 },
                 {
                   title: "Permanece activa por meses",
-                  description: "La invitación estará disponible hasta 6 meses después del evento (varía según el plan). Un recuerdo digital permanente de tu evento."
+                  description: "La invitación estará disponible hasta 6 meses después del evento (varía según el plan). Tiempo suficiente para que todos disfruten los recuerdos."
                 }
               ].map((item, index) => (
                 <div
