@@ -67,7 +67,7 @@ const Footer = () => {
                   Blog
                 </a>
                 <a
-                  href="/#contacto"
+                  href="/contact"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-300"
                 >
                   Contacto
