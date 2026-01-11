@@ -31,20 +31,20 @@ const HeroSection = () => {
       {/* Content */}
       <div className="container relative z-10 px-4 md:px-6 py-20 md:py-32">
         <div className="max-w-4xl mx-auto text-center">
-          {/* Main heading */}
-          <h1 className={`${!isMobile ? 'animate-fade-up' : ''} font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] tracking-tight mb-6`}>
+          {/* Main heading - ANIMACIÓN SIEMPRE */}
+          <h1 className="animate-fade-up font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] tracking-tight mb-6">
             Empresa de tecnología que funciona como marca madre
           </h1>
 
-          {/* Description */}
-          <p className={`${!isMobile ? 'animate-fade-up-delay-1' : ''} text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed`}>
+          {/* Description - ANIMACIÓN SIEMPRE */}
+          <p className="animate-fade-up-delay-1 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed">
             Astren no está limitada a un solo producto. Creamos y conectamos múltiples 
             soluciones tecnológicas en distintos ámbitos: cada una con su propia identidad, 
             pero bajo una misma visión.
           </p>
 
-          {/* CTA Buttons */}
-          <div className={`${!isMobile ? 'animate-fade-up-delay-2' : ''} flex flex-col sm:flex-row items-center justify-center gap-4`}>
+          {/* CTA Buttons - ANIMACIÓN SIEMPRE */}
+          <div className="animate-fade-up-delay-2 flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button variant="hero" size="xl" asChild>
               <a href="#productos">
                 Explorar ecosistema
