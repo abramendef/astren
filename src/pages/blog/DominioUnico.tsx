@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { useSEO } from "@/hooks/useSEO";
@@ -11,6 +12,10 @@ const BlogArticleDominioUnico = () => {
     keywords: "dominio web, elegir dominio, nombre dominio, dominio SEO, marca web",
     canonicalUrl: "https://astren.app/blog/dominio-perfecto",
   });
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "auto" });
+  }, []);
 
   return (
     <div className="min-h-screen bg-background">
