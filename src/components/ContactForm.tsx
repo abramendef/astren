@@ -42,6 +42,7 @@ const ContactForm = () => {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
+          'Accept': 'application/json',
         },
         body: JSON.stringify({
           name: formData.name,
@@ -62,6 +63,8 @@ const ContactForm = () => {
           message: '',
         });
       } else {
+        const errorText = await response.text();
+        console.error('Formspree error:', errorText);
         setSubmitStatus('error');
       }
     } catch (error) {
