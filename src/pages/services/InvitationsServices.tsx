@@ -13,6 +13,7 @@ const InvitationsServices = () => {
       recommended: false,
       description: "Ideal si buscas algo sencillo, bonito y funcional.",
       features: [
+        { text: "Activa por 1 mes después del evento", included: true },
         { text: "Invitación web (link compartible)", included: true },
         { text: "Diseño elegante y mobile-first", included: true },
         { text: "Tipo de evento", included: true },
@@ -35,6 +36,7 @@ const InvitationsServices = () => {
       badge: "⭐ El más solicitado",
       description: "La experiencia completa para XV, bodas y eventos importantes.",
       features: [
+        { text: "Activa por 6 meses después del evento", included: true },
         { text: "TODO del Plan Esencial", included: true },
         { text: "Confirmación de asistencia (RSVP)", included: true },
         { text: "Galería colaborativa de fotos", included: true },
@@ -57,6 +59,7 @@ const InvitationsServices = () => {
       recommended: false,
       description: "Para quienes quieren más tranquilidad y atención extra.",
       features: [
+        { text: "Activa PERMANENTEMENTE (para siempre)", included: true },
         { text: "TODO del Plan Completo", included: true },
         { text: "Prioridad en entrega", included: true },
         { text: "Más ajustes incluidos", included: true },
@@ -128,8 +131,8 @@ const InvitationsServices = () => {
                   description: "Los invitados pueden confirmar asistencia, subir fotos, ver el itinerario y más."
                 },
                 {
-                  title: "Permanece activa por meses",
-                  description: "La invitación estará disponible hasta 6 meses después del evento (varía según el plan). Tiempo suficiente para que todos disfruten los recuerdos."
+                  title: "Diferentes duraciones según plan",
+                  description: "Plan Esencial: 1 mes. Plan Completo: 6 meses. Plan Premium+: Para siempre. Elige el que mejor se adapte a tus necesidades."
                 }
               ].map((item, index) => (
                 <div
@@ -288,7 +291,7 @@ const InvitationsServices = () => {
                 },
                 {
                   q: "¿Cuánto tiempo permanece activa la invitación?",
-                  a: "Hasta 6 meses después del evento (el tiempo exacto varía según el plan). En el Plan Premium+ tienes la galería disponible por más tiempo. Después puedes descargar todas las fotos como recuerdo."
+                  a: "Depende del plan: Plan Esencial (1 mes después), Plan Completo (6 meses después), Plan Premium+ (para siempre). Al finalizar el periodo puedes descargar todas las fotos como recuerdo."
                 },
                 {
                   q: "¿Puedo cambiar el contenido después de crear la invitación?",
