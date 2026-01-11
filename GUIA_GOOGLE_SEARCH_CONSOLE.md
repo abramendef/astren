@@ -47,8 +47,10 @@ Para cada página importante:
 
 - **24-48 horas**: Google descubrirá tu sitio
 - **3-7 días**: Empezarás a aparecer para búsquedas muy específicas
-- **2-4 semanas**: Aparecerás para "invitaciones web Mazatlán" o "invitaciones digitales Sinaloa"
-- **1-3 meses**: Posibilidad de aparecer para "invitaciones web" (página 2-3)
+- **1-2 semanas**: Aparecerás para "invitaciones web Mazatlán" (local - fácil)
+- **2-4 semanas**: Aparecerás para "invitaciones digitales online" o "desarrollo web remoto"
+- **1-3 meses**: Posibilidad de aparecer para "invitaciones web" general (página 2-3)
+- **3-6 meses**: Top 10-20 para keywords nacionales como "invitaciones digitales México"
 - **6+ meses**: Top 10 para "invitaciones web" (con contenido constante)
 
 ## 🎯 Mientras tanto: Estrategia inmediata
@@ -59,10 +61,11 @@ Si necesitas clientes YA:
 
 1. Ve a: https://ads.google.com
 2. Crea campaña de búsqueda
-3. Keywords: 
-   - "invitaciones digitales Mazatlán"
-   - "invitaciones web Sinaloa"
-   - "invitación digital para boda Mazatlán"
+3. Keywords híbridas (local + nacional):
+   - "invitaciones digitales Mazatlán" (local - barato)
+   - "invitaciones web México" (nacional)
+   - "invitación digital para boda online" (intención clara)
+   - "páginas web remotas" (servicio remoto)
 4. Presupuesto: $50-100 USD/día
 5. Envía a: https://astren.app/services/invitaciones
 
@@ -75,7 +78,11 @@ Si necesitas clientes YA:
 3. Nombre: "Astren - Invitaciones Web y Páginas Digitales"
 4. Categoría: "Servicio de diseño web" + "Servicio de diseño gráfico"
 5. Ubicación: Tu dirección en Mazatlán, Sinaloa
-6. Teléfono: +52 81 3877 8770
+6. **Área de servicio:** Selecciona "Atiendo a clientes en su ubicación" → Agrega: Todo México (o ciudades específicas: CDMX, Guadalajara, Monterrey, etc.)
+7. Teléfono: +52 81 3877 8770
+8. Sitio web: https://astren.app/services/invitaciones
+9. **Descripción:** "Servicios de páginas web e invitaciones digitales 100% remotos. Trabajamos con clientes en todo México y el mundo desde Mazatlán, Sinaloa."
+10. Verifica con tarjeta postal (llega en 5-7 días)
 7. Sitio web: https://astren.app/services/invitaciones
 8. Verifica con tarjeta postal (llega en 5-7 días)
 
@@ -83,12 +90,19 @@ Si necesitas clientes YA:
 
 ### Búsquedas que SÍ te encontrarán pronto:
 
-Enfócate en keywords de "long-tail" (menos competidas):
-
+**FASE 1 (1-2 semanas) - Local:**
 - ✅ "invitaciones web Mazatlán" ⭐ **MUY POCO COMPETIDO**
+- ✅ "páginas web Mazatlán" ⭐ **MUY POCO COMPETIDO**
 - ✅ "invitaciones digitales Sinaloa" ⭐ **MUY POCO COMPETIDO**
+
+**FASE 2 (2-4 semanas) - Servicio remoto:**
+- ✅ "invitaciones digitales online"
+- ✅ "desarrollo web remoto México"
 - ✅ "invitación digital con rsvp"
-- ✅ "invitación de boda digital personalizada"
+
+**FASE 3 (1-3 meses) - Nacional:**
+- ✅ "invitaciones digitales México"
+- ✅ "páginas web online"
 - ✅ "crear invitación web para xv años"
 
 ## 📊 Monitorear progreso:
@@ -112,10 +126,11 @@ En Google Search Console (revisar semanalmente):
 Este keyword tiene empresas que llevan AÑOS optimizando y gastan miles de dólares mensuales en SEO.
 
 **Tu mejor estrategia SHORT-TERM:**
-1. Google Ads para tráfico inmediato
-2. SEO local (Mazatlán/Sinaloa) ⭐ **EXCELENTE - Muy poca competencia**
-3. Long-tail keywords específicos
-4. Google Business Profile
+1. Google Ads para tráfico inmediato (keywords nacional + local)
+2. SEO local (Mazatlán/Sinaloa) ⭐ **EXCELENTE - Muy poca competencia - Ganarás rápido**
+3. SEO nacional (México) con keywords de servicio remoto
+4. Long-tail keywords específicos
+5. Google Business Profile con área de servicio amplia
 
 **Tu estrategia LONG-TERM:**
 1. Contenido constante (blog)

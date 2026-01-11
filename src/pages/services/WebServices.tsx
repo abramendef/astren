@@ -8,8 +8,8 @@ import { WebServicesSchema } from "@/components/SEOSchema";
 const WebServices = () => {
   useSEO({
     title: "Páginas Web Profesionales - Portfolio, E-commerce, Landing Pages | Astren",
-    description: "Desarrollo de páginas web personalizadas: portfolios, blogs, sitios de negocios, tiendas online, landing pages y sitios corporativos. Incluye hosting, dominio astren.app y SEO básico. Cotización gratuita al +52 81 3877 8770.",
-    keywords: "páginas web, desarrollo web, diseño web, e-commerce, tienda online, landing page, portfolio web, blog, sitio corporativo, SEO, hosting, dominio, Mazatlán, Sinaloa, México",
+    description: "Desarrollo de páginas web personalizadas para clientes en México y el mundo: portfolios, blogs, tiendas online, landing pages y sitios corporativos. Trabajo 100% remoto. Incluye hosting, dominio astren.app y SEO básico. Cotización gratuita al +52 81 3877 8770.",
+    keywords: "páginas web, desarrollo web remoto, diseño web online, e-commerce, tienda online, landing page, portfolio web, blog, sitio corporativo, SEO, hosting, dominio, desarrollo web México, servicios web remotos",
     canonicalUrl: "https://astren.app/services/web",
   });
 

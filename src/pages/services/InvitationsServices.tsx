@@ -8,8 +8,8 @@ import { InvitationsSchema } from "@/components/SEOSchema";
 const InvitationsServices = () => {
   useSEO({
     title: "Invitaciones Web Personalizadas para Bodas, XV Años y Eventos | Astren",
-    description: "Invitaciones digitales elegantes con RSVP, galería de fotos y música. Planes desde $600 MXN. Diseño personalizado para bodas, XV años, bautizos, graduaciones y cualquier evento especial. Activas desde 1 mes hasta para siempre.",
-    keywords: "invitaciones digitales, invitaciones web, invitaciones bodas, invitaciones XV años, invitaciones bautizo, RSVP online, galería fotos eventos, invitaciones personalizadas, México",
+    description: "Invitaciones digitales elegantes para eventos en cualquier parte del mundo. RSVP, galería de fotos y música. Planes desde $600 MXN. Diseño personalizado para bodas, XV años, bautizos, graduaciones. Servicio 100% remoto. Activas desde 1 mes hasta para siempre.",
+    keywords: "invitaciones digitales, invitaciones web, invitaciones bodas, invitaciones XV años, invitaciones bautizo, RSVP online, galería fotos eventos, invitaciones personalizadas online, México, servicios remotos",
     canonicalUrl: "https://astren.app/services/invitaciones",
   });
 
