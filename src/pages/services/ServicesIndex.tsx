@@ -40,13 +40,13 @@ const ServicesIndex = () => {
               </p>
               
               {/* CTA Buttons */}
-              <div className="animate-fade-up-delay-2 flex flex-col sm:flex-row items-center justify-center gap-4">
-                <Button variant="hero" size="xl" asChild>
+              <div className="animate-fade-up-delay-2 flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto">
+                <Button variant="hero" size="xl" asChild className="w-full sm:w-auto">
                   <a href="https://wa.me/+528138778770?text=Hola,%20me%20interesa%20un%20servicio" target="_blank" rel="noopener noreferrer">
                     Solicitar cotización
                   </a>
                 </Button>
-                <Button variant="heroOutline" size="xl" asChild>
+                <Button variant="heroOutline" size="xl" asChild className="w-full sm:w-auto">
                   <a href="#servicios">
                     Explorar servicios ↓
                   </a>
