@@ -33,6 +33,15 @@
   </head>
 
   <body>
+    <script>
+      // Forzar scroll arriba ANTES de cualquier renderizado
+      if ('scrollRestoration' in history) {
+        history.scrollRestoration = 'manual';
+      }
+      window.addEventListener('DOMContentLoaded', function() {
+        window.scrollTo(0, 0);
+      });
+    </script>
     <div id="root">
       <!-- Contenido inicial para bots/SEO mientras carga React -->
       <noscript>
