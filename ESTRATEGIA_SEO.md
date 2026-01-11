@@ -21,18 +21,21 @@
 
 **Página principal (/):**
 - Primarias: "astren", "tecnología", "software"
-- Secundarias: "páginas web", "invitaciones digitales", "desarrollo web"
-- Long-tail: "desarrollo software Mazatlán", "páginas web Sinaloa", "tecnología Mazatlán"
+- Secundarias: "páginas web", "invitaciones digitales", "desarrollo web remoto"
+- Long-tail: "servicios web remotos México", "desarrollo software online"
+- Local: "tecnología Mazatlán" (secundario)
 
 **Servicios Web (/services/web):**
 - Primarias: "páginas web profesionales", "desarrollo web", "diseño web"
-- Secundarias: "e-commerce", "landing page", "portfolio web"
-- Long-tail: "crear tienda online méxico", "página web para negocio"
+- Secundarias: "e-commerce", "landing page", "portfolio web", "desarrollo web remoto"
+- Long-tail: "crear tienda online México", "página web para negocio remoto", "diseño web freelance"
+- Local: "páginas web Mazatlán" (para capturar local también)
 
 **Invitaciones (/services/invitaciones):**
 - Primarias: "invitaciones digitales", "invitaciones web"
-- Secundarias: "invitaciones bodas", "invitaciones XV años"
-- Long-tail: "invitación digital con RSVP", "invitación web para boda"
+- Secundarias: "invitaciones bodas", "invitaciones XV años", "invitaciones online"
+- Long-tail: "invitación digital con RSVP", "invitación web para boda personalizada", "invitaciones digitales económicas"
+- Local: "invitaciones web Mazatlán", "invitaciones XV años Sinaloa" (bonus local)
 
 ## 📈 Estrategia continua para mejorar ranking
 
@@ -63,23 +66,56 @@ Casos de éxito:
 
 **Frecuencia recomendada:** 2-4 artículos por mes (mínimo 1000 palabras cada uno)
 
-### FASE 2: SEO Local (Para Mazatlán, Sinaloa)
+### FASE 2: SEO Dual (Local + Nacional)
+
+**Estrategia híbrida:** Mazatlán es tu ubicación física, pero servicios son 100% remotos.
+
+**1. SEO Local (Mazatlán/Sinaloa) - Para visibilidad inicial**
+   - Google Business Profile con ubicación en Mazatlán
+   - Keywords: "desarrollo web Mazatlán", "invitaciones digitales Sinaloa"
+   - Ventaja: Muy poca competencia, rankings rápidos
+   - Target: Clientes locales y búsquedas "cerca de mí"
+
+**2. SEO Nacional (México)**
+   - Keywords: "páginas web México", "invitaciones digitales online"
+   - Contenido que mencione "servicio remoto para todo México"
+   - Target: Clientes en CDMX, Guadalajara, Monterrey, etc.
+
+**3. SEO Internacional**
+   - Keywords: "desarrollo web remoto", "invitaciones web personalizadas online"
+   - Mencionar "servicio para cualquier parte del mundo"
+   - Target: Latinos en USA, Latinoamérica
 
 1. **Google Business Profile**
-   - Crear perfil verificado
+   - Crear perfil verificado (ubicación física: Mazatlán)
+   - **IMPORTANTE:** En descripción mencionar "Servicios remotos para todo México"
    - Agregar fotos del equipo/oficina
-   - Solicitar reseñas de clientes
+   - Solicitar reseñas de clientes (de cualquier ubicación)
    - Publicar actualizaciones semanales
+   - Agregar área de servicio: Todo México (no solo Mazatlán)
 
-2. **Directorios locales**
-   - Registrar en directorios de negocios de Mazatlán y Sinaloa
+2. **Directorios locales Y nacionales**
+   - Registrar en directorios de negocios de Mazatlán y Sinaloa (local)
+   - Directorios de tecnología México (nacional)
+   - Plataformas freelance México (Workana, Freelancer.mx)
    - Cámaras de comercio locales
-   - Directorios de tecnología México
 
-3. **Keywords locales**
+3. **Keywords - Estrategia escalonada**
+   
+   **Mes 1-2: Dominar local**
    - "desarrollo web Mazatlán"
    - "páginas web Sinaloa"
    - "invitaciones digitales Mazatlán"
+   
+   **Mes 3-6: Expandir a nacional**
+   - "desarrollo web remoto México"
+   - "páginas web online"
+   - "invitaciones digitales México"
+   
+   **Mes 6+: Competir global**
+   - "desarrollo web remoto"
+   - "invitaciones digitales online"
+   - "freelance web developer"
 
 ### FASE 3: Link Building (Backlinks de calidad)
 
@@ -219,9 +255,11 @@ Casos de éxito:
 - "páginas web" - EXTREMA (empresas con presupuestos de $100k+ en SEO)
 - "desarrollo web" - ALTA
 - "invitaciones digitales" - MEDIA
-- "páginas web Mazatlán" - BAJA ⭐ **ENFÓCATE AQUÍ PRIMERO**
-- "invitaciones web Mazatlán" - MUY BAJA ⭐⭐ **EXCELENTE OPORTUNIDAD**
-- "desarrollo web Sinaloa" - MEDIA-BAJA ⭐ **ENFÓCATE AQUÍ PRIMERO**
+- "desarrollo web remoto" - MEDIA ⭐ **ENFÓCATE AQUÍ** (menos competencia que general)
+- "páginas web Mazatlán" - BAJA ⭐ **EXCELENTE - Fácil dominar**
+- "invitaciones web Mazatlán" - MUY BAJA ⭐⭐ **GANARÁS ESTO RÁPIDO**
+- "invitaciones digitales México" - MEDIA ⭐ **BUEN OBJETIVO MEDIANO PLAZO**
+- "páginas web online" - MEDIA-ALTA (pero mejor que "páginas web" general)
 
 ## 🏆 Recomendación final
 

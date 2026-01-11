@@ -26,6 +26,16 @@ export const AstrenOrganizationSchema = () => {
         addressRegion: 'Sinaloa',
         addressLocality: 'Mazatlán',
       },
+      areaServed: [
+        {
+          '@type': 'Country',
+          name: 'Mexico',
+        },
+        {
+          '@type': 'Place',
+          name: 'Internacional',
+        },
+      ],
     };
 
     const script = document.createElement('script');
@@ -61,11 +71,18 @@ export const WebServicesSchema = () => {
       telephone: '+52-81-3877-8770',
       email: 'astren.app@gmail.com',
       priceRange: '$$',
-      areaServed: {
-        '@type': 'Country',
-        name: 'Mexico',
-      },
-      serviceType: ['Web Development', 'E-commerce', 'Web Design'],
+      areaServed: [
+        {
+          '@type': 'Country',
+          name: 'Mexico',
+        },
+        {
+          '@type': 'Place',
+          name: 'Worldwide',
+        },
+      ],
+      serviceType: ['Web Development', 'E-commerce', 'Web Design', 'Remote Web Development'],
+      additionalType: 'RemoteService',
       hasOfferCatalog: {
         '@type': 'OfferCatalog',
         name: 'Servicios de Desarrollo Web',
@@ -182,10 +199,16 @@ export const InvitationsSchema = () => {
           },
         ],
       },
-      areaServed: {
-        '@type': 'Country',
-        name: 'Mexico',
-      },
+      areaServed: [
+        {
+          '@type': 'Country',
+          name: 'Mexico',
+        },
+        {
+          '@type': 'Place',
+          name: 'Worldwide',
+        },
+      ],
     };
 
     const script = document.createElement('script');

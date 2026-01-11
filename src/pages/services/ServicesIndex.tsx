@@ -7,8 +7,8 @@ import { useSEO } from "@/hooks/useSEO";
 const ServicesIndex = () => {
   useSEO({
     title: "Servicios - Páginas Web e Invitaciones Digitales | Astren",
-    description: "Creamos páginas web profesionales y invitaciones digitales personalizadas. Desarrollo web desde $0, invitaciones desde $600 MXN. Portfolio, e-commerce, landing pages, blogs, invitaciones para bodas, XV años y eventos.",
-    keywords: "páginas web, desarrollo web, invitaciones digitales, invitaciones web, e-commerce, landing page, portfolio, diseño web, invitaciones bodas, invitaciones XV años, México",
+    description: "Creamos páginas web profesionales y invitaciones digitales personalizadas para clientes en todo México y el mundo. Trabajo 100% remoto. Desarrollo web, e-commerce, landing pages, invitaciones para bodas, XV años y eventos. Invitaciones desde $600 MXN.",
+    keywords: "páginas web, desarrollo web remoto, invitaciones digitales, invitaciones web online, e-commerce, landing page, portfolio, diseño web, servicios digitales remotos, México",
     canonicalUrl: "https://astren.app/services",
   });
 
