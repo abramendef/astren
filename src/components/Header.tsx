@@ -17,10 +17,10 @@ const Header = () => {
   }, []);
 
   const navLinks = [
-    { href: "#nosotros", label: "Nosotros" },
-    { href: "#productos", label: "Ecosistema" },
-    { href: "#servicios", label: "Servicios" },
-    { href: "#contacto", label: "Contacto" },
+    { href: "/#nosotros", label: "Nosotros" },
+    { href: "/#productos", label: "Ecosistema" },
+    { href: "/#servicios", label: "Servicios" },
+    { href: "/#contacto", label: "Contacto" },
   ];
 
 
@@ -33,7 +33,15 @@ const Header = () => {
       return;
     }
 
-    const sectionIds = navLinks.filter(link => link.href.startsWith("#")).map(link => link.href.replace('#', ''));
+    // Solo calcular secciones en la home
+    if (location.pathname !== "/") {
+      setActiveSection("");
+      return;
+    }
+
+    const sectionIds = navLinks
+      .filter(link => link.href.startsWith("/#"))
+      .map(link => link.href.replace("/#", ""));
     const headerOffset = 80;
     const handleScroll = () => {
       const scrollY = window.scrollY;
@@ -43,11 +51,10 @@ const Header = () => {
         if (el) {
           const sectionTop = el.offsetTop - headerOffset - 1;
           if (scrollY >= sectionTop) {
-            current = `#${sectionIds[i]}`;
+            current = `/#${sectionIds[i]}`;
           }
         }
       }
-      // Si estamos cerca del final de la página, forzar contacto
       const scrollBottom = window.innerHeight + window.scrollY;
       const docHeight = document.body.offsetHeight;
       if (docHeight - scrollBottom < 10) {
@@ -58,7 +65,7 @@ const Header = () => {
     window.addEventListener("scroll", handleScroll, { passive: true });
     handleScroll();
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [navLinks]);
+  }, [navLinks, location.pathname]);
 
   return (
     <>
@@ -77,7 +84,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16 md:h-20 md:grid md:grid-cols-3 md:items-center">
           {/* Logo */}
           <div className="flex items-center">
-            <a href="#" className="flex items-center gap-2 group">
+            <a href="/" className="flex items-center gap-2 group">
               <img src="/logo_horizontal_astren.svg" alt="Logo Astren" className="h-10 md:h-12 w-auto" />
             </a>
           </div>
