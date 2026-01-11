@@ -205,7 +205,7 @@ const WebServices = () => {
                 Cuéntanos sobre tu proyecto y te enviaremos una cotización personalizada.
               </p>
               
-              <Button variant="hero" size="xl" asChild>
+              <Button variant="hero" size="xl" asChild className="w-full sm:w-auto">
                 <a href="https://wa.me/+528138778770?text=Hola,%20me%20interesa%20una%20página%20web" target="_blank" rel="noopener noreferrer">
                   <span className="hidden sm:inline">Solicitar cotización por WhatsApp</span>
                   <span className="sm:hidden">Cotización vía WhatsApp</span>
