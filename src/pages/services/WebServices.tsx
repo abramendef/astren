@@ -164,7 +164,7 @@ const WebServices = () => {
                 },
                 {
                   q: "¿Incluye hosting y dominio?",
-                  a: "Sí, el hosting y dominio están incluidos en el paquete. Nos encargamos de todo el aspecto técnico."
+                  a: "Incluye un dominio de astren.app (ej: tunegocio.astren.app) sin costo. Si prefieres un dominio propio (ej: tunegocio.com), te asesoramos en la compra. Para hosting, te guiamos en obtener uno adecuado o podemos cotizarlo por separado."
                 },
                 {
                   q: "¿Incluye SEO?",
