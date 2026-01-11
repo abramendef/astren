@@ -240,7 +240,7 @@ const WebServices = () => {
 
             <div className="mt-12 p-8 bg-secondary/20 border border-border/50 rounded-lg max-w-3xl mx-auto text-center">
               <p className="text-muted-foreground mb-4">
-                Todos los precios incluyen: hosting en astren.app, dominio, responsive design, SSL certificado y SEO básico.
+                Todos los precios incluyen: subdominio astren.app gratis, asesoría de hosting, responsive design, SSL certificado y SEO básico.
               </p>
               <p className="text-sm text-muted-foreground">
                 Los precios pueden variar según funcionalidades adicionales. Solicita tu cotización personalizada.
