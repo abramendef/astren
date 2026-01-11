@@ -58,6 +58,7 @@ export default {
         gpr: "hsl(var(--gpr-blue))",
         ai: "hsl(var(--ai-purple))",
         games: "hsl(var(--games-red))",
+        services: "hsl(var(--services-green))",
       },
       borderRadius: {
         lg: "var(--radius)",

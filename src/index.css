@@ -37,9 +37,10 @@
     --radius: 0.75rem;
 
     /* Product colors */
-    --gpr-blue: 210 100% 55%;
+    --gpr-blue: 223.5 98% 60%;
     --ai-purple: 270 100% 65%;
     --games-red: 0 85% 55%;
+    --services-green: 160 84% 39%;
 
     /* Gradients */
     --gradient-dark: linear-gradient(180deg, hsl(0 0% 4%) 0%, hsl(0 0% 8%) 100%);
@@ -53,6 +54,7 @@
     --shadow-glow-blue: 0 0 40px hsl(var(--gpr-blue) / 0.3);
     --shadow-glow-purple: 0 0 40px hsl(var(--ai-purple) / 0.3);
     --shadow-glow-red: 0 0 40px hsl(var(--games-red) / 0.3);
+    --shadow-glow-green: 0 0 40px hsl(var(--services-green) / 0.3);
 
     /* Font families */
     --font-heading: 'Sora', sans-serif;
@@ -95,6 +97,10 @@
 
   .glow-red {
     box-shadow: var(--shadow-glow-red);
+  }
+
+  .glow-green {
+    box-shadow: var(--shadow-glow-green);
   }
 
   .text-gradient {

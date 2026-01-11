@@ -1,10 +1,12 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useLocation } from "react-router-dom";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -17,6 +19,7 @@ const Header = () => {
   const navLinks = [
     { href: "#nosotros", label: "Nosotros" },
     { href: "#productos", label: "Ecosistema" },
+    { href: "#servicios", label: "Servicios" },
     { href: "#contacto", label: "Contacto" },
   ];
 
@@ -24,7 +27,13 @@ const Header = () => {
   // Lógica robusta y limpia para sección activa
   const [activeSection, setActiveSection] = useState("");
   useEffect(() => {
-    const sectionIds = navLinks.map(link => link.href.replace('#', ''));
+    // Si estamos en /services, marcar "Servicios" como activo
+    if (location.pathname.startsWith("/services")) {
+      setActiveSection("/services");
+      return;
+    }
+
+    const sectionIds = navLinks.filter(link => link.href.startsWith("#")).map(link => link.href.replace('#', ''));
     const headerOffset = 80;
     const handleScroll = () => {
       const scrollY = window.scrollY;
