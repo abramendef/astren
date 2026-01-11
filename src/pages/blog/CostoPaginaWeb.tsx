@@ -25,17 +25,17 @@ const BlogArticleCostoPaginaWeb = () => {
             <div className="max-w-3xl">
               <Link 
                 to="/blog" 
-                className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground mb-6 transition-colors"
+                className="animate-fade-up inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground mb-6 transition-colors"
               >
                 <ArrowLeft className="w-4 h-4" />
                 Volver al blog
               </Link>
               
-              <h1 className="font-heading text-4xl md:text-5xl font-bold leading-[1.2] mb-4">
+              <h1 className="animate-fade-up-delay-1 font-heading text-4xl md:text-5xl font-bold leading-[1.2] mb-4">
                 ¿Cuánto cuesta una página web en 2026?
               </h1>
               
-              <div className="flex items-center gap-4 text-sm text-muted-foreground">
+              <div className="animate-fade-up-delay-2 flex items-center gap-4 text-sm text-muted-foreground">
                 <span>8 de enero, 2026</span>
                 <span>•</span>
                 <span>6 min de lectura</span>
@@ -49,7 +49,7 @@ const BlogArticleCostoPaginaWeb = () => {
         {/* Content */}
         <section className="relative py-12 md:py-16">
           <div className="container px-4 md:px-6">
-            <div className="max-w-3xl mx-auto prose prose-invert">
+            <div className="animate-fade-up-delay-3 max-w-3xl mx-auto prose prose-invert">
               <p className="text-lg text-muted-foreground leading-relaxed mb-8">
                 Una de las preguntas más comunes es: "¿Cuánto cuesta una página web?" La respuesta no es simple, porque depende de muchos factores. Pero aquí te doy un desglose honesto de qué esperar en 2026.
               </p>
