@@ -128,15 +128,16 @@ const WebServices = () => {
               </p>
             </div>
 
-            <div className="max-w-5xl mx-auto overflow-x-auto">
-              <table className="w-full text-sm md:text-base mx-auto">
-                <thead>
-                  <tr className="border-b border-border/50">
-                    <th className="text-left py-4 px-4 md:px-6 font-bold text-foreground">Tipo de página</th>
-                    <th className="text-center py-4 px-4 md:px-6 font-bold text-foreground whitespace-nowrap">Precio</th>
-                    <th className="text-left py-4 px-4 md:px-6 font-bold text-foreground hidden md:table-cell">Incluye</th>
-                  </tr>
-                </thead>
+            <div className="max-w-5xl mx-auto">
+              <div className="overflow-x-auto">
+                <table className="w-full text-sm md:text-base mx-auto" style={{tableLayout: 'fixed'}}>
+                  <thead>
+                    <tr className="border-b border-border/50">
+                      <th className="text-left py-4 px-4 md:px-6 font-bold text-foreground w-[40%]">Tipo de página</th>
+                      <th className="text-center py-4 px-4 md:px-6 font-bold text-foreground whitespace-nowrap w-[25%]">Precio</th>
+                      <th className="text-left py-4 px-4 md:px-6 font-bold text-foreground hidden md:table-cell w-[35%]">Incluye</th>
+                    </tr>
+                  </thead>
                 <tbody>
                   <tr className="border-b border-border/30 hover:bg-secondary/10 transition-colors">
                     <td className="py-6 px-4 md:px-6">
@@ -236,6 +237,7 @@ const WebServices = () => {
                   </tr>
                 </tbody>
               </table>
+              </div>
             </div>
 
             <div className="mt-12 p-8 bg-secondary/20 border border-border/50 rounded-lg max-w-3xl mx-auto text-center">
