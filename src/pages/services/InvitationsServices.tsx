@@ -128,8 +128,8 @@ const InvitationsServices = () => {
                   description: "Los invitados pueden confirmar asistencia, subir fotos, ver el itinerario y más."
                 },
                 {
-                  title: "Permanece siempre activa",
-                  description: "La invitación estará disponible antes, durante y después de tu evento. Un recuerdo digital permanente."
+                  title: "Permanece activa por meses",
+                  description: "La invitación estará disponible hasta 6 meses después del evento (varía según el plan). Un recuerdo digital permanente de tu evento."
                 }
               ].map((item, index) => (
                 <div
@@ -288,7 +288,7 @@ const InvitationsServices = () => {
                 },
                 {
                   q: "¿Cuánto tiempo permanece activa la invitación?",
-                  a: "La invitación estará activa antes, durante y después de tu evento. Podrás guardar las fotos de la galería colaborativa cuando termines."
+                  a: "Hasta 6 meses después del evento (el tiempo exacto varía según el plan). En el Plan Premium+ tienes la galería disponible por más tiempo. Después puedes descargar todas las fotos como recuerdo."
                 },
                 {
                   q: "¿Puedo cambiar el contenido después de crear la invitación?",
