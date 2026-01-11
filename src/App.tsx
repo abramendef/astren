@@ -14,7 +14,7 @@ import CostoPaginaWeb from "./pages/blog/CostoPaginaWeb";
 import DominioUnico from "./pages/blog/DominioUnico";
 import ContactPage from "./pages/Contact";
 import NotFound from "./pages/NotFound";
-import ScrollToTop from "./components/ScrollToTop";
+import PageWrapper from "./components/PageWrapper";
 
 const queryClient = new QueryClient();
 
@@ -25,9 +25,9 @@ const App = () => (
         <Toaster />
         <Sonner />
         <BrowserRouter>
-          <ScrollToTop />
-          <Routes>
-            <Route path="/" element={<Index />} />
+          <PageWrapper>
+            <Routes>
+              <Route path="/" element={<Index />} />
             <Route path="/services" element={<ServicesIndex />} />
             <Route path="/services/web" element={<WebServices />} />
             <Route path="/services/invitaciones" element={<InvitationsServices />} />
@@ -39,6 +39,7 @@ const App = () => (
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
           </Routes>
+          </PageWrapper>
         </BrowserRouter>
       </TooltipProvider>
     </QueryClientProvider>
