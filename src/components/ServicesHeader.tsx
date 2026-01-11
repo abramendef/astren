@@ -48,7 +48,8 @@ const ServicesHeader = () => {
             </div>
 
             {/* Desktop Navigation - Dropdown */}
-            <div className="hidden md:flex items-center gap-4">
+            {/* Desktop Navigation - Centered */}
+            <div className="hidden md:flex items-center absolute left-1/2 -translate-x-1/2">
               <div className="relative">
                 <button
                   onClick={() => setIsDropdownOpen(!isDropdownOpen)}
