@@ -43,9 +43,9 @@ const BlogIndex = () => {
     <div className="min-h-screen bg-background">
       <Header />
       
-      <main className="pt-16 md:pt-20">
+      <main className="pt-12 md:pt-16">
         {/* Hero */}
-        <section className="relative py-16 md:py-20 overflow-hidden">
+        <section className="relative py-12 md:py-16 overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-b from-background via-secondary/10 to-background" />
           
           <div className="container relative z-10 px-4 md:px-6">
@@ -69,7 +69,7 @@ const BlogIndex = () => {
         </section>
 
         {/* Articles Grid */}
-        <section className="relative py-16 md:py-20">
+        <section className="relative py-12 md:py-16">
           <div className="container px-4 md:px-6">
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
               {articles.map((article, index) => (
