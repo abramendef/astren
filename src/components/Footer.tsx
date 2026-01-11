@@ -49,13 +49,13 @@ const Footer = () => {
             ) : (
               <>
                 <a
-                  href="#productos"
+                  href="/#productos"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-300"
                 >
                   Productos
                 </a>
                 <a
-                  href="#servicios"
+                  href="/#servicios"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-300"
                 >
                   Servicios
@@ -67,7 +67,7 @@ const Footer = () => {
                   Blog
                 </a>
                 <a
-                  href="#contacto"
+                  href="/#contacto"
                   className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-300"
                 >
                   Contacto
