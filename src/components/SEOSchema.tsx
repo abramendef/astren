@@ -23,7 +23,8 @@ export const AstrenOrganizationSchema = () => {
       address: {
         '@type': 'PostalAddress',
         addressCountry: 'MX',
-        addressRegion: 'Nuevo León',
+        addressRegion: 'Sinaloa',
+        addressLocality: 'Mazatlán',
       },
     };
 
