@@ -20,7 +20,7 @@ const Header = () => {
     { href: "/#nosotros", label: "Nosotros" },
     { href: "/#productos", label: "Ecosistema" },
     { href: "/#servicios", label: "Servicios" },
-    { href: "/#contacto", label: "Contacto" },
+    { href: "/contact", label: "Contacto" },
   ];
 
 
@@ -118,7 +118,7 @@ const Header = () => {
           <div className="flex items-center justify-end gap-2">
             <div className="hidden md:block">
               <Button variant="hero" size="sm" asChild>
-                <a href="#productos">Explorar</a>
+                <a href="/contact">Hablemos</a>
               </Button>
             </div>
             {/* Mobile Menu Toggle */}
@@ -163,8 +163,8 @@ const Header = () => {
             );
           })}
           <Button variant="hero" size="lg" className="mt-4" asChild>
-            <a href="#productos" onClick={() => setIsMobileMenuOpen(false)}>
-              Explorar ecosistema
+            <a href="/contact" onClick={() => setIsMobileMenuOpen(false)}>
+              Hablemos
             </a>
           </Button>
         </nav>
