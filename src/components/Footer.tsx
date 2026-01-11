@@ -12,9 +12,28 @@ const Footer = () => {
           </div>
 
           {/* Copyright - Centered */}
-          <p className="text-sm text-muted-foreground text-center order-3 lg:order-none w-full lg:w-auto">
-            © {currentYear} Astren. Todos los derechos reservados.
-          </p>
+          <div className="text-center order-3 lg:order-none w-full lg:w-auto">
+            <p className="text-sm text-muted-foreground mb-2">
+              © {currentYear} Astren. Todos los derechos reservados.
+            </p>
+            <div className="flex items-center justify-center gap-3 text-xs text-muted-foreground">
+              <a 
+                href="/llms.txt" 
+                className="hover:text-foreground transition-colors duration-300"
+                title="Información para LLMs/IAs"
+              >
+                LLMs
+              </a>
+              <span>·</span>
+              <a 
+                href="/sitemap.xml" 
+                className="hover:text-foreground transition-colors duration-300"
+                title="Mapa del sitio"
+              >
+                Sitemap
+              </a>
+            </div>
+          </div>
 
           {/* Links */}
           <div className="flex items-center gap-6 flex-shrink-0 lg:absolute lg:right-0">
