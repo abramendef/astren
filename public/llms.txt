@@ -1,0 +1,89 @@
+# Astren
+
+> Tecnología para equipos, productividad y creatividad
+
+## Acerca de Astren
+
+Astren es una empresa de tecnología ubicada en Mazatlán, Sinaloa, México que desarrolla software innovador y ofrece servicios digitales 100% remotos para clientes en todo México y el mundo.
+
+## Productos de Software
+
+### AstrenGPR
+Sistema de gestión de equipos y productividad empresarial. Herramienta para optimizar la colaboración y eficiencia de equipos de trabajo.
+
+### AstrenAI
+Plataforma de inteligencia artificial para automatización y análisis de datos. Soluciones de IA adaptadas a necesidades empresariales.
+
+### AstrenGames
+Desarrollo de juegos móviles innovadores y entretenimiento digital interactivo.
+
+## Servicios Digitales
+
+### Páginas Web Profesionales
+
+Desarrollo de sitios web personalizados, modernos y responsivos:
+
+- **Portfolio/CV Digital**: Páginas personales para mostrar tu trabajo
+- **Blogs y Sitios de Contenido**: Plataformas para compartir conocimiento
+- **Sitios de Negocio**: Presencia profesional online para empresas
+- **E-commerce**: Tiendas online completas con carrito y pagos
+- **Landing Pages**: Páginas de aterrizaje para campañas
+- **Sitios Corporativos**: Soluciones empresariales a medida
+
+**Incluye**: Dominio astren.app, hosting, SEO básico
+**Proceso**: Consulta → Diseño → Desarrollo → Lanzamiento
+**Alcance**: Servicio 100% remoto para cualquier parte del mundo
+
+Más información: https://astren.app/services/web
+
+### Invitaciones Web Personalizadas
+
+Invitaciones digitales elegantes para eventos especiales:
+
+**Eventos**: Bodas, XV años, bautizos, graduaciones, cumpleaños, baby showers
+
+**Planes disponibles:**
+
+- **Plan Esencial** ($600 MXN): Invitación básica, activa 1 mes después del evento
+- **Plan Completo** ($1,000 MXN): Con RSVP y galería de fotos, activa 6 meses
+- **Plan Premium+** ($1,200 MXN): Completo con música, activa para siempre
+
+**Características**:
+- Diseño personalizado y mobile-first
+- Confirmación de asistencia (RSVP)
+- Galería colaborativa de fotos
+- Google Maps integrado
+- Cuenta regresiva
+- Música/playlist Spotify
+- Link compartible
+
+Más información: https://astren.app/services/invitaciones
+Ver ejemplo: https://invitacion-navide-a-six.vercel.app/
+
+## Contacto
+
+- **Sitio web**: https://astren.app
+- **Servicios**: https://astren.app/services
+- **Email**: astren.app@gmail.com
+- **WhatsApp**: +52 81 3877 8770
+- **GitHub**: https://github.com/abramendef/astren
+- **Ubicación física**: Mazatlán, Sinaloa, México
+- **Área de servicio**: Todo México e Internacional
+
+## Tecnologías
+
+Desarrollo con tecnologías modernas:
+- React, TypeScript, Tailwind CSS
+- Node.js, Vite
+- Bases de datos robustas
+- Optimización SEO
+- Diseño responsive y mobile-first
+
+## Cotizaciones
+
+Todas las cotizaciones son gratuitas y sin compromiso. Servicios personalizados según necesidades del cliente.
+
+---
+
+**Última actualización**: Enero 2026
+**Versión del documento**: 1.0

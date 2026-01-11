@@ -24,7 +24,16 @@
   </head>
 
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <!-- Contenido inicial para bots/SEO mientras carga React -->
+      <noscript>
+        <h1>Astren - Tecnología, Páginas Web e Invitaciones Digitales</h1>
+        <p>Desarrollo de software innovador, páginas web profesionales y invitaciones digitales personalizadas.</p>
+        <p>Por favor, habilita JavaScript para la mejor experiencia.</p>
+      </noscript>
+      <!-- Los bots modernos ejecutan JS, pero este fallback ayuda -->
+    </div>
     <script type="module" src="/src/main.tsx"></script>
+  </body></script>
   </body>
 </html>
