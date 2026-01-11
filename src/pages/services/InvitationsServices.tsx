@@ -59,7 +59,7 @@ const InvitationsServices = () => {
       recommended: false,
       description: "Para quienes quieren más tranquilidad y atención extra.",
       features: [
-        { text: "Activa PERMANENTEMENTE (para siempre)", included: true },
+        { text: "Activa para siempre", included: true },
         { text: "TODO del Plan Completo", included: true },
         { text: "Prioridad en entrega", included: true },
         { text: "Más ajustes incluidos", included: true },
@@ -131,8 +131,8 @@ const InvitationsServices = () => {
                   description: "Los invitados pueden confirmar asistencia, subir fotos, ver el itinerario y más."
                 },
                 {
-                  title: "Diferentes duraciones según plan",
-                  description: "Plan Esencial: 1 mes. Plan Completo: 6 meses. Plan Premium+: Para siempre. Elige el que mejor se adapte a tus necesidades."
+                  title: "Puedes tenerla para siempre",
+                  description: "Con el Plan Premium+ tu invitación permanece activa permanentemente. Los otros planes tienen duración de 1 a 6 meses después del evento."
                 }
               ].map((item, index) => (
                 <div
