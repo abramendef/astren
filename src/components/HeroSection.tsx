@@ -44,13 +44,13 @@ const HeroSection = () => {
           </p>
 
           {/* CTA Buttons - ANIMACIÓN SIEMPRE */}
-          <div className="animate-fade-up-delay-2 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button variant="hero" size="xl" asChild>
+          <div className="animate-fade-up-delay-2 flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto">
+            <Button variant="hero" size="xl" asChild className="w-full sm:w-auto">
               <a href="#productos">
                 Explorar ecosistema
               </a>
             </Button>
-            <Button variant="heroOutline" size="xl" asChild>
+            <Button variant="heroOutline" size="xl" asChild className="w-full sm:w-auto">
               <a href="#nosotros">
                 Nuestra visión
               </a>
