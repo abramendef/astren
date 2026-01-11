@@ -129,24 +129,24 @@ const WebServices = () => {
             </div>
 
             <div className="max-w-5xl mx-auto overflow-x-auto">
-              <table className="w-full text-sm md:text-base">
+              <table className="w-full text-sm md:text-base mx-auto">
                 <thead>
                   <tr className="border-b border-border/50">
-                    <th className="text-left py-4 px-4 font-bold text-foreground">Tipo de página</th>
-                    <th className="text-center py-4 px-4 font-bold text-foreground">Precio</th>
-                    <th className="text-left py-4 px-4 font-bold text-foreground hidden md:table-cell">Incluye</th>
+                    <th className="text-left py-4 px-4 md:px-6 font-bold text-foreground">Tipo de página</th>
+                    <th className="text-center py-4 px-4 md:px-6 font-bold text-foreground whitespace-nowrap">Precio</th>
+                    <th className="text-left py-4 px-4 md:px-6 font-bold text-foreground hidden md:table-cell">Incluye</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr className="border-b border-border/30 hover:bg-secondary/10 transition-colors">
-                    <td className="py-6 px-4">
+                    <td className="py-6 px-4 md:px-6">
                       <div>
                         <p className="font-bold text-foreground">Portfolio / CV Digital</p>
                         <p className="text-xs text-muted-foreground mt-1">Galería de proyectos, contacto</p>
                       </div>
                     </td>
-                    <td className="py-6 px-4 text-center font-bold text-services">$2,000 - $3,500</td>
-                    <td className="py-6 px-4 text-xs text-muted-foreground hidden md:table-cell">
+                    <td className="py-6 px-4 md:px-6 text-center font-bold text-services whitespace-nowrap">$2,000 - $3,500</td>
+                    <td className="py-6 px-4 md:px-6 text-xs text-muted-foreground hidden md:table-cell">
                       <ul className="space-y-1">
                         <li>• 5 páginas</li>
                         <li>• SEO básico</li>
@@ -155,14 +155,14 @@ const WebServices = () => {
                     </td>
                   </tr>
                   <tr className="border-b border-border/30 hover:bg-secondary/10 transition-colors">
-                    <td className="py-6 px-4">
+                    <td className="py-6 px-4 md:px-6">
                       <div>
                         <p className="font-bold text-foreground">Blog / Sitio Personal</p>
                         <p className="text-xs text-muted-foreground mt-1">Sistema de blog funcional</p>
                       </div>
                     </td>
-                    <td className="py-6 px-4 text-center font-bold text-services">$3,500 - $5,000</td>
-                    <td className="py-6 px-4 text-xs text-muted-foreground hidden md:table-cell">
+                    <td className="py-6 px-4 md:px-6 text-center font-bold text-services whitespace-nowrap">$3,500 - $5,000</td>
+                    <td className="py-6 px-4 md:px-6 text-xs text-muted-foreground hidden md:table-cell">
                       <ul className="space-y-1">
                         <li>• Sistema de blog</li>
                         <li>• Categorías y búsqueda</li>
@@ -171,14 +171,14 @@ const WebServices = () => {
                     </td>
                   </tr>
                   <tr className="border-b border-border/30 hover:bg-secondary/10 transition-colors">
-                    <td className="py-6 px-4">
+                    <td className="py-6 px-4 md:px-6">
                       <div>
                         <p className="font-bold text-foreground">Sitio de Negocio</p>
                         <p className="text-xs text-muted-foreground mt-1">Restaurante, clínica, consultoría</p>
                       </div>
                     </td>
-                    <td className="py-6 px-4 text-center font-bold text-services">$4,000 - $6,500</td>
-                    <td className="py-6 px-4 text-xs text-muted-foreground hidden md:table-cell">
+                    <td className="py-6 px-4 md:px-6 text-center font-bold text-services whitespace-nowrap">$4,000 - $6,500</td>
+                    <td className="py-6 px-4 md:px-6 text-xs text-muted-foreground hidden md:table-cell">
                       <ul className="space-y-1">
                         <li>• Información del negocio</li>
                         <li>• Google Maps</li>
@@ -187,14 +187,14 @@ const WebServices = () => {
                     </td>
                   </tr>
                   <tr className="border-b border-border/30 hover:bg-secondary/10 transition-colors">
-                    <td className="py-6 px-4">
+                    <td className="py-6 px-4 md:px-6">
                       <div>
                         <p className="font-bold text-foreground">Landing Page</p>
                         <p className="text-xs text-muted-foreground mt-1">Campaña o promoción</p>
                       </div>
                     </td>
-                    <td className="py-6 px-4 text-center font-bold text-services">$1,500 - $2,500</td>
-                    <td className="py-6 px-4 text-xs text-muted-foreground hidden md:table-cell">
+                    <td className="py-6 px-4 md:px-6 text-center font-bold text-services whitespace-nowrap">$1,500 - $2,500</td>
+                    <td className="py-6 px-4 md:px-6 text-xs text-muted-foreground hidden md:table-cell">
                       <ul className="space-y-1">
                         <li>• 1 página de impacto</li>
                         <li>• Diseño conversion-focus</li>
@@ -203,14 +203,14 @@ const WebServices = () => {
                     </td>
                   </tr>
                   <tr className="border-b border-border/30 hover:bg-secondary/10 transition-colors">
-                    <td className="py-6 px-4">
+                    <td className="py-6 px-4 md:px-6">
                       <div>
                         <p className="font-bold text-foreground">Tienda Online</p>
                         <p className="text-xs text-muted-foreground mt-1">E-commerce con pasarela</p>
                       </div>
                     </td>
-                    <td className="py-6 px-4 text-center font-bold text-services">$8,000 - $15,000</td>
-                    <td className="py-6 px-4 text-xs text-muted-foreground hidden md:table-cell">
+                    <td className="py-6 px-4 md:px-6 text-center font-bold text-services whitespace-nowrap">$8,000 - $15,000</td>
+                    <td className="py-6 px-4 md:px-6 text-xs text-muted-foreground hidden md:table-cell">
                       <ul className="space-y-1">
                         <li>• Catálogo de productos</li>
                         <li>• Carrito de compras</li>
@@ -219,14 +219,14 @@ const WebServices = () => {
                     </td>
                   </tr>
                   <tr className="hover:bg-secondary/10 transition-colors">
-                    <td className="py-6 px-4">
+                    <td className="py-6 px-4 md:px-6">
                       <div>
                         <p className="font-bold text-foreground">Sitio Empresarial</p>
                         <p className="text-xs text-muted-foreground mt-1">Solución completa personalizada</p>
                       </div>
                     </td>
-                    <td className="py-6 px-4 text-center font-bold text-services">Consultar</td>
-                    <td className="py-6 px-4 text-xs text-muted-foreground hidden md:table-cell">
+                    <td className="py-6 px-4 md:px-6 text-center font-bold text-services">Consultar</td>
+                    <td className="py-6 px-4 md:px-6 text-xs text-muted-foreground hidden md:table-cell">
                       <ul className="space-y-1">
                         <li>• A medida</li>
                         <li>• Múltiples secciones</li>
