@@ -207,7 +207,8 @@ const WebServices = () => {
               
               <Button variant="hero" size="xl" asChild>
                 <a href="https://wa.me/+528138778770?text=Hola,%20me%20interesa%20una%20página%20web" target="_blank" rel="noopener noreferrer">
-                  Solicitar cotización por WhatsApp
+                  <span className="hidden sm:inline">Solicitar cotización por WhatsApp</span>
+                  <span className="sm:hidden">Cotización vía WhatsApp</span>
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </a>
               </Button>
