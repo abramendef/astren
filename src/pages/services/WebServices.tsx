@@ -54,7 +54,7 @@ const WebServices = () => {
               <p className="animate-fade-up-delay-1 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed">
                 Sitios web modernos, responsivos y optimizados. Para tu idea, tu negocio o tu presencia personal.
               </p>
-              <Button variant="hero" size="xl" asChild className="animate-fade-up-delay-2">
+              <Button variant="hero" size="xl" asChild className="animate-fade-up-delay-2 w-full sm:w-auto">
                 <a href="#cotizacion">
                   Solicitar cotización
                   <ArrowRight className="w-5 h-5 ml-2" />
