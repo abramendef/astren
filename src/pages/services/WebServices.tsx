@@ -168,7 +168,7 @@ const WebServices = () => {
                 },
                 {
                   q: "¿Incluye SEO?",
-                  a: "Incluimos SEO básico de optimización en estructura. Para SEO avanzado e estrategia de posicionamiento, lo conversamos en la cotización."
+                  a: "Incluimos SEO básico para que Google encuentre tu página (optimización en estructura y etiquetas). Para estrategias avanzadas de posicionamiento en buscadores, lo conversamos en la cotización."
                 },
                 {
                   q: "¿Puedo hacer cambios después?",
