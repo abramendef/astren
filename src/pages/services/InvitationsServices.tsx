@@ -62,7 +62,7 @@ const InvitationsServices = () => {
     },
     {
       name: "Plan Premium+",
-      price: "$1,200",
+      price: "$2,000",
       currency: "MXN",
       period: "por evento",
       recommended: false,
