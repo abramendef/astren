@@ -173,16 +173,6 @@ TypeScript está configurado con modo estricto habilitado para detectar errores 
 
 El proyecto utiliza ESLint para el cumplimiento de la calidad del código. Ejecutar `npm run lint` para verificar problemas antes de hacer commits.
 
-## Contribuciones
-
-Al contribuir a este proyecto:
-
-1. Crear una rama de características desde main
-2. Realizar cambios con mensajes de commit descriptivos
-3. Asegurar que todas las verificaciones de TypeScript pasen
-4. Probar el proceso de construcción localmente
-5. Enviar un pull request con una descripción clara
-
 ## Licencia
 
-Este proyecto es privado y propietario.
+Este proyecto es de uso privado.
