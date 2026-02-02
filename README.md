@@ -1,20 +1,41 @@
 # Astren
 
-Plataforma web moderna para invitaciones digitales y servicios de desarrollo web. Este proyecto presenta una aplicación React completa con optimización SEO, diseño responsivo y un catálogo de servicios integral.
+Sitio web corporativo de Astren, empresa de tecnología que funciona como marca madre de múltiples productos digitales. El proyecto presenta el ecosistema tecnológico de la empresa y ofrece servicios profesionales de desarrollo web e invitaciones digitales.
 
-## Descripción General
+## Descripción del Proyecto
 
-Astren es una aplicación web orientada a servicios que proporciona soluciones de invitaciones digitales y servicios de desarrollo web. La plataforma incluye una sección de blog con artículos técnicos, un sistema de contacto y páginas de servicios detalladas con datos estructurados para mejorar la visibilidad en motores de búsqueda.
+Este es el sitio web principal de Astren, desarrollado como una aplicación React moderna que sirve múltiples propósitos:
 
-### Características Principales
+1. **Presentación del ecosistema de productos**: Muestra los diferentes productos bajo la marca Astren (AstrenGPR, AstrenAI, AstrenGames).
+2. **Portal de servicios**: Ofrece servicios profesionales de desarrollo web e invitaciones digitales personalizadas para clientes en México y el mundo.
+3. **Blog técnico**: Artículos sobre desarrollo web, SEO y tecnología.
+4. **Plataforma de contacto**: Sistema de consultas y cotizaciones para servicios.
 
-- Aplicación React multipágina con enrutamiento del lado del cliente
-- Optimización SEO con meta tags, datos estructurados y sitemap
-- Diseño responsivo utilizando Tailwind CSS
-- Biblioteca de componentes construida con shadcn/ui y primitivos de Radix UI
-- Sistema de blog con artículos técnicos sobre desarrollo web
-- Formulario de contacto con validación
-- Configuración de despliegue para Vercel
+### El Ecosistema Astren
+
+Astren no está limitada a un solo producto. La empresa desarrolla múltiples soluciones tecnológicas:
+
+- **AstrenGPR**: Sistema de gestión de productividad con reputación (activo)
+- **AstrenAI**: Herramientas de inteligencia artificial para creadores y equipos (próximo lanzamiento)
+- **AstrenGames**: Entretenimiento interactivo y juegos (en desarrollo)
+
+### Servicios Ofrecidos
+
+El sitio presenta dos servicios principales:
+
+1. **Páginas Web Personalizadas**: Desarrollo de portfolios, blogs, e-commerce, landing pages y sitios corporativos. Incluye hosting en subdominio astren.app, SSL, y SEO básico.
+
+2. **Invitaciones Web para Eventos**: Soluciones digitales personalizadas para bodas, XV años, bautizos y otros eventos. Incluye RSVP, galerías de fotos, música de fondo y diseño mobile-first.
+
+### Características Técnicas
+
+- Single Page Application con routing dinámico
+- Diseño minimalista con efectos visuales y animaciones
+- SEO completo con meta tags dinámicos, structured data (JSON-LD) y sitemap
+- Sistema de formularios con validación
+- Responsive design optimizado para móviles
+- Integración con Google Maps para ubicaciones de eventos
+- Componentes reutilizables con arquitectura modular
 
 ## Stack Tecnológico
 
