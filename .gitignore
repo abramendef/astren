@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Documentación local (no versionar)
+ESTRATEGIA_SEO.md
+GUIA_GOOGLE_SEARCH_CONSOLE.md
+SEO_MODERNA_REALIDAD.md
