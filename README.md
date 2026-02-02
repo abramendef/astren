@@ -1,73 +1,167 @@
-# ...existing code...
+# Astren
 
-## Project info
+Plataforma web moderna para invitaciones digitales y servicios de desarrollo web. Este proyecto presenta una aplicación React completa con optimización SEO, diseño responsivo y un catálogo de servicios integral.
 
-# ...existing code...
+## Descripción General
 
-## How can I edit this code?
+Astren es una aplicación web orientada a servicios que proporciona soluciones de invitaciones digitales y servicios de desarrollo web. La plataforma incluye una sección de blog con artículos técnicos, un sistema de contacto y páginas de servicios detalladas con datos estructurados para mejorar la visibilidad en motores de búsqueda.
 
-There are several ways of editing your application.
+### Características Principales
 
-# ...existing code...
+- Aplicación React multipágina con enrutamiento del lado del cliente
+- Optimización SEO con meta tags, datos estructurados y sitemap
+- Diseño responsivo utilizando Tailwind CSS
+- Biblioteca de componentes construida con shadcn/ui y primitivos de Radix UI
+- Sistema de blog con artículos técnicos sobre desarrollo web
+- Formulario de contacto con validación
+- Configuración de despliegue para Vercel
 
-# ...existing code...
+## Stack Tecnológico
 
-# ...existing code...
+### Framework Frontend
+- **React 18** - Biblioteca de UI basada en componentes
+- **TypeScript** - Verificación de tipos estáticos
+- **Vite** - Herramienta de construcción y servidor de desarrollo
 
-**Use your preferred IDE**
+### Componentes UI
+- **shadcn/ui** - Biblioteca de componentes accesibles
+- **Radix UI** - Primitivos UI sin estilos y accesibles
+- **Tailwind CSS** - Framework CSS utility-first
+- **Lucide React** - Biblioteca de iconos
 
-# ...existing code...
+### Bibliotecas Adicionales
+- **React Router** - Enrutamiento del lado del cliente
+- **React Hook Form** - Gestión de estado de formularios
+- **React Helmet Async** - Gestión del head del documento para SEO
+- **TanStack Query** - Gestión de estado del servidor
+- **Zod** - Validación de esquemas
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Estructura del Proyecto
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+astren/
+├── src/
+│   ├── components/        # Componentes UI reutilizables
+│   │   ├── ui/           # Componentes shadcn/ui
+│   │   ├── Header.tsx
+│   │   ├── Footer.tsx
+│   │   ├── ContactForm.tsx
+│   │   └── SEOSchema.tsx
+│   ├── pages/            # Componentes de ruta
+│   │   ├── Index.tsx
+│   │   ├── Blog.tsx
+│   │   ├── Contact.tsx
+│   │   ├── services/
+│   │   └── blog/
+│   ├── hooks/            # Hooks personalizados de React
+│   ├── lib/              # Funciones utilitarias
+│   └── App.tsx           # Componente raíz
+├── public/
+│   ├── sitemap.xml
+│   ├── robots.txt
+│   └── llms.txt
+└── package.json
 ```
 
-**Edit a file directly in GitHub**
+## Instalación y Configuración
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Requisitos Previos
 
-**Use GitHub Codespaces**
+- Node.js 18+ o runtime Bun
+- Gestor de paquetes npm, yarn o bun
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Desarrollo Local
 
-## What technologies are used for this project?
+1. Clonar el repositorio:
+```bash
+git clone https://github.com/abramendef/astren.git
+cd astren
+```
 
-This project is built with:
+2. Instalar dependencias:
+```bash
+npm install
+# o
+bun install
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+3. Iniciar el servidor de desarrollo:
+```bash
+npm run dev
+# o
+bun dev
+```
 
-## How can I deploy this project?
+La aplicación estará disponible en `http://localhost:5173`.
 
-# ...existing code...
+### Construcción para Producción
 
-# ...existing code...
+```bash
+npm run build
+```
 
-Yes, you can!
+La construcción optimizada se creará en el directorio `dist/`.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### Vista Previa de Construcción de Producción
 
-# ...existing code...
+```bash
+npm run preview
+```
+
+## Scripts Disponibles
+
+- `npm run dev` - Iniciar servidor de desarrollo con recarga en caliente
+- `npm run build` - Crear construcción de producción
+- `npm run build:dev` - Crear construcción de desarrollo
+- `npm run preview` - Vista previa local de construcción de producción
+- `npm run lint` - Ejecutar ESLint para verificaciones de calidad de código
+
+## Despliegue
+
+Este proyecto está configurado para despliegue en Vercel. El archivo `vercel.json` incluye la configuración de enrutamiento para comportamiento de aplicación de página única.
+
+Para desplegar:
+
+1. Hacer push de los cambios a la rama main
+2. Conectar el repositorio a Vercel
+3. Vercel construirá y desplegará automáticamente
+
+Los dominios personalizados se pueden configurar en la configuración del proyecto de Vercel.
+
+## Configuración SEO
+
+La aplicación implementa varias mejores prácticas de SEO:
+
+- Meta tags dinámicos usando React Helmet
+- Datos estructurados (JSON-LD) para fragmentos enriquecidos
+- Sitemap XML para motores de búsqueda
+- robots.txt para directivas de crawlers
+- llms.txt para contexto de modelos de IA
+
+## Notas de Desarrollo
+
+### Biblioteca de Componentes
+
+El proyecto utiliza componentes shadcn/ui, que se copian en el proyecto en lugar de instalarse como dependencias. Esto permite la personalización completa del comportamiento y estilos de los componentes.
+
+### Seguridad de Tipos
+
+TypeScript está configurado con modo estricto habilitado para detectar errores potenciales durante el desarrollo. Las definiciones de tipos están disponibles para todas las dependencias principales.
+
+### Estilo de Código
+
+El proyecto utiliza ESLint para el cumplimiento de la calidad del código. Ejecutar `npm run lint` para verificar problemas antes de hacer commits.
+
+## Contribuciones
+
+Al contribuir a este proyecto:
+
+1. Crear una rama de características desde main
+2. Realizar cambios con mensajes de commit descriptivos
+3. Asegurar que todas las verificaciones de TypeScript pasen
+4. Probar el proceso de construcción localmente
+5. Enviar un pull request con una descripción clara
+
+## Licencia
+
+Este proyecto es privado y propietario.
