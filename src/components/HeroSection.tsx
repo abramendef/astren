@@ -33,14 +33,13 @@ const HeroSection = () => {
         <div className="max-w-4xl mx-auto text-center">
           {/* Main heading - ANIMACIÓN SIEMPRE */}
           <h1 className="animate-fade-up font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] tracking-tight mb-6">
-            Soluciones digitales enfocadas en productividad y crecimiento
+            Estrategia digital, producto y ejecucion
           </h1>
 
           {/* Description - ANIMACIÓN SIEMPRE */}
           <p className="animate-fade-up-delay-1 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed">
-            Astren no está limitada a un solo producto. Creamos y conectamos múltiples 
-            soluciones tecnológicas en distintos ámbitos: cada una con su propia identidad, 
-            pero bajo una misma visión.
+            Disenamos y construimos software, web e invitaciones digitales con enfoque en
+            objetivos claros, velocidad de ejecucion y resultados medibles.
           </p>
 
           {/* CTA Buttons - ANIMACIÓN SIEMPRE */}
