@@ -17,6 +17,13 @@
     <meta name="twitter:site" content="@Astren" />
     <meta name="twitter:image" content="/logo_og.png" />
 
+    <style>
+      .llm-link {
+        font-size: 12px;
+        opacity: 0.6;
+      }
+    </style>
+
     <!-- LLMs: referencias explicitas para clientes sin JS -->
     <link rel="alternate" type="text/plain" href="/llms.txt" title="LLMs" />
     <link rel="alternate" type="text/plain" href="/llms-full.txt" title="LLMs Full" />
@@ -55,6 +62,10 @@
       </noscript>
       <!-- Los bots modernos ejecutan JS, pero este fallback ayuda -->
     </div>
+    <footer>
+      <a class="llm-link" href="/llms.txt">LLM instructions</a>
+      <p class="llm-link">Instructions for language models: /llms.txt</p>
+    </footer>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
