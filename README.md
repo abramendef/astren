@@ -1,6 +1,6 @@
 # Astren
 
-Sitio web corporativo de Astren, empresa de tecnología que funciona como marca madre de múltiples productos digitales. El proyecto presenta el ecosistema tecnológico de la empresa y ofrece servicios profesionales de desarrollo web e invitaciones digitales.
+Sitio web principal de Astren, un proyecto digital con múltiples productos y servicios. Presenta el ecosistema y ofrece servicios profesionales de desarrollo web e invitaciones digitales.
 
 ## Descripción del Proyecto
 
@@ -13,7 +13,7 @@ Este es el sitio web principal de Astren, desarrollado como una aplicación Reac
 
 ### El Ecosistema Astren
 
-Astren no está limitada a un solo producto. La empresa desarrolla múltiples soluciones tecnológicas:
+Astren no está limitado a un solo producto. El proyecto desarrolla múltiples soluciones tecnológicas:
 
 - **AstrenGPR**: Sistema de gestión de productividad con reputación (activo)
 - **AstrenAI**: Herramientas de inteligencia artificial para creadores y equipos (próximo lanzamiento)
