@@ -8,8 +8,8 @@ import { WebServicesSchema } from "@/components/SEOSchema";
 const WebServices = () => {
   useSEO({
     title: "Páginas Web Profesionales - Portfolio, E-commerce, Landing Pages | Astren",
-    description: "Desarrollo de páginas web personalizadas para clientes en México y el mundo: portfolios, blogs, tiendas online, landing pages y sitios corporativos. Trabajo 100% remoto. Incluye hosting, dominio astren.app y SEO básico. Cotización gratuita al +52 81 3877 8770.",
-    keywords: "páginas web, desarrollo web remoto, diseño web online, e-commerce, tienda online, landing page, portfolio web, blog, sitio corporativo, SEO, hosting, dominio, desarrollo web México, servicios web remotos",
+    description: "Desarrollo de páginas web personalizadas para clientes en México y el mundo: portfolios, blogs, tiendas online, landing pages y sitios institucionales. Trabajo 100% remoto. Incluye hosting, dominio astren.app y SEO básico. Cotización gratuita al +52 81 3877 8770.",
+    keywords: "páginas web, desarrollo web remoto, diseño web online, e-commerce, tienda online, landing page, portfolio web, blog, sitio institucional, SEO, hosting, dominio, desarrollo web México, servicios web remotos",
     canonicalUrl: "https://astren.app/services/web",
   });
 
@@ -40,8 +40,8 @@ const WebServices = () => {
       features: ["Diseño de alto impacto", "Call-to-action claro", "Formularios"]
     },
     {
-      title: "Sitio Empresarial",
-      description: "Solución completa para empresas. Múltiples secciones y funcionalidades.",
+      title: "Sitio Institucional",
+      description: "Solución completa para equipos y organizaciones. Múltiples secciones y funcionalidades.",
       features: ["Sitio a medida", "Blog y noticias", "Gestión de contenidos"]
     }
   ];
@@ -222,7 +222,7 @@ const WebServices = () => {
                   <tr className="hover:bg-secondary/10 transition-colors">
                     <td className="py-6 px-4 md:px-6">
                       <div>
-                        <p className="font-bold text-foreground">Sitio Empresarial</p>
+                        <p className="font-bold text-foreground">Sitio Institucional</p>
                         <p className="text-xs text-muted-foreground mt-1">Solución completa personalizada</p>
                       </div>
                     </td>
@@ -302,7 +302,7 @@ const WebServices = () => {
               {[
                 {
                   q: "¿Cuánto cuesta una página web?",
-                  a: "El precio depende del tipo de página, funcionalidades y complejidad. Desde opciones básicas hasta proyectos empresariales complejos. Solicita una cotización para presupuesto personalizado."
+                  a: "El precio depende del tipo de página, funcionalidades y complejidad. Desde opciones básicas hasta proyectos complejos. Solicita una cotización para presupuesto personalizado."
                 },
                 {
                   q: "¿Cuánto tiempo toma crear una página?",

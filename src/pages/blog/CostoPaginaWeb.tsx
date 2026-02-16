@@ -62,10 +62,10 @@ const BlogArticleCostoPaginaWeb = () => {
                 Ideal para freelancers y profesionales independientes. Una página limpia que muestra tu trabajo y tus servicios. Incluye formulario de contacto y optimización SEO básica.
               </p>
 
-              <h3 className="text-xl font-semibold mt-10 mb-4">Blog corporativo</h3>
+              <h3 className="text-xl font-semibold mt-10 mb-4">Blog de marca</h3>
               <p className="text-muted-foreground leading-relaxed mb-6">
                 <strong>$3,500 - $5,000 MXN</strong><br />
-                Para empresas que quieren contar su historia. Incluye sistema de blog integrado, múltiples secciones, galería de imágenes y SEO más avanzado.
+                Para equipos que quieren contar su historia. Incluye sistema de blog integrado, múltiples secciones, galería de imágenes y SEO más avanzado.
               </p>
 
               <h3 className="text-xl font-semibold mt-10 mb-4">Página de negocio pequeño</h3>

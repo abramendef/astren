@@ -23,7 +23,7 @@ Astren no está limitado a un solo producto. El proyecto desarrolla múltiples s
 
 El sitio presenta dos servicios principales:
 
-1. **Páginas Web Personalizadas**: Desarrollo de portfolios, blogs, e-commerce, landing pages y sitios corporativos. Incluye hosting en subdominio astren.app, SSL, y SEO básico.
+1. **Páginas Web Personalizadas**: Desarrollo de portfolios, blogs, e-commerce, landing pages y sitios institucionales. Incluye hosting en subdominio astren.app, SSL, y SEO básico.
 
 2. **Invitaciones Web para Eventos**: Soluciones digitales personalizadas para bodas, XV años, bautizos y otros eventos. Incluye RSVP, galerías de fotos, música de fondo y diseño mobile-first.
 

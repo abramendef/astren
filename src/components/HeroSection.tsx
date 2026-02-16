@@ -38,8 +38,8 @@ const HeroSection = () => {
 
           {/* Description - ANIMACIÓN SIEMPRE */}
           <p className="animate-fade-up-delay-1 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed">
-            Unimos producto, diseno y desarrollo para lanzar software y proyectos web que
-            generan resultados.
+            Unimos producto, diseno y desarrollo para lanzar software y proyectos web
+            innovadores que generan resultados.
           </p>
 
           {/* CTA Buttons - ANIMACIÓN SIEMPRE */}

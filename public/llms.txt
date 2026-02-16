@@ -9,13 +9,13 @@ Astren es un proyecto digital en crecimiento con base en Mazatlán, Sinaloa, Mé
 ## Productos de Software
 
 ### AstrenGPR
-Sistema de gestión de equipos y productividad empresarial. Herramienta para optimizar la colaboración y eficiencia de equipos de trabajo.
+Sistema de gestion de equipos y productividad. Herramienta para optimizar la colaboracion y eficiencia del equipo.
 
 ### AstrenAI
-Plataforma de inteligencia artificial para automatización y análisis de datos. Soluciones de IA adaptadas a necesidades empresariales.
+Plataforma de inteligencia artificial para automatización y análisis de datos. Soluciones de IA adaptadas a necesidades de equipos.
 
 ### AstrenGames
-Desarrollo de juegos móviles innovadores y entretenimiento digital interactivo.
+Desarrollo de juegos moviles innovadores y entretenimiento digital interactivo.
 
 ## Servicios Digitales
 
@@ -25,10 +25,10 @@ Desarrollo de sitios web personalizados, modernos y responsivos:
 
 - **Portfolio/CV Digital**: Páginas personales para mostrar tu trabajo
 - **Blogs y Sitios de Contenido**: Plataformas para compartir conocimiento
-- **Sitios de Negocio**: Presencia profesional online para empresas
+- **Sitios de Negocio**: Presencia profesional online para negocios
 - **E-commerce**: Tiendas online completas con carrito y pagos
 - **Landing Pages**: Páginas de aterrizaje para campañas
-- **Sitios Corporativos**: Soluciones empresariales a medida
+- **Sitios Institucionales**: Soluciones a medida
 
 **Incluye**: Dominio astren.app, hosting, SEO básico
 **Proceso**: Consulta → Diseño → Desarrollo → Lanzamiento

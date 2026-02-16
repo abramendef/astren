@@ -145,7 +145,7 @@ const BlogArticleDominioUnico = () => {
               <h2 className="text-2xl md:text-3xl font-bold mt-12 mb-6">Ideas para diferentes industrias</h2>
 
               <ul className="space-y-3 text-muted-foreground mb-8">
-                <li><strong>Consultoría:</strong> tu-nombre.com.mx o nombreempresa.app</li>
+                <li><strong>Consultoría:</strong> tu-nombre.com.mx o nombreproyecto.app</li>
                 <li><strong>E-commerce:</strong> nombretienda.store o nombretienda.com</li>
                 <li><strong>Freelancer:</strong> tu-nombre.com (personal) o tu-nombre.dev (técnico)</li>
                 <li><strong>Restaurante:</strong> nombre-resto.mx (local) o nombre-resto.com</li>
