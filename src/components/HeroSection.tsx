@@ -33,13 +33,13 @@ const HeroSection = () => {
         <div className="max-w-4xl mx-auto text-center">
           {/* Main heading - ANIMACIÓN SIEMPRE */}
           <h1 className="animate-fade-up font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] tracking-tight mb-6">
-            Estrategia digital, producto y ejecucion
+            Ecosistema digital con impacto real
           </h1>
 
           {/* Description - ANIMACIÓN SIEMPRE */}
           <p className="animate-fade-up-delay-1 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed">
-            Disenamos y construimos software, web e invitaciones digitales con enfoque en
-            objetivos claros, velocidad de ejecucion y resultados medibles.
+            Unimos producto, diseno y desarrollo para lanzar software y proyectos web que
+            generan resultados.
           </p>
 
           {/* CTA Buttons - ANIMACIÓN SIEMPRE */}
