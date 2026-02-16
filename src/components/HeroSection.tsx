@@ -46,12 +46,12 @@ const HeroSection = () => {
           <div className="animate-fade-up-delay-2 flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto">
             <Button variant="hero" size="xl" asChild className="w-full sm:w-auto">
               <a href="#productos">
-                Explorar ecosistema
+                Ver productos
               </a>
             </Button>
             <Button variant="heroOutline" size="xl" asChild className="w-full sm:w-auto">
-              <a href="#nosotros">
-                Nuestra visión
+              <a href="#servicios">
+                Ver servicios
               </a>
             </Button>
           </div>
