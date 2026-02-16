@@ -1,10 +1,10 @@
 # Astren
 
-> Tecnología para equipos, productividad y creatividad
+> Ecosistema digital con impacto real
 
 ## Acerca de Astren
 
-Astren es una empresa de tecnología ubicada en Mazatlán, Sinaloa, México que desarrolla software innovador y ofrece servicios digitales 100% remotos para clientes en todo México y el mundo.
+Astren es un proyecto digital en crecimiento con base en Mazatlán, Sinaloa, México. Unimos producto, diseño y desarrollo para crear software propio y servicios digitales 100% remotos para clientes en México y el mundo.
 
 ## Productos de Software
 

@@ -6,15 +6,18 @@
 
 ---
 
-## 📌 INFORMACIÓN CORPORATIVA
+## 📌 INFORMACIÓN GENERAL
 
 ### Identificación
 - **Nombre**: Astren
-- **Tipo**: Empresa de Tecnología
+- **Tipo**: Proyecto digital en crecimiento
 - **Ubicación física**: Mazatlán, Sinaloa, México
 - **Área de operación**: 100% remota - Servicios para México e Internacional
 - **Año de fundación**: Activa desde 2024+
 - **Sitio web**: https://astren.app
+
+### Resumen
+Astren es un ecosistema digital con impacto real. Unimos producto, diseño y desarrollo para lanzar software propio y proyectos web que generan resultados.
 
 ### Contacto
 - **Email principal**: astren.app@gmail.com
