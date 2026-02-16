@@ -33,7 +33,7 @@ const HeroSection = () => {
         <div className="max-w-4xl mx-auto text-center">
           {/* Main heading - ANIMACIÓN SIEMPRE */}
           <h1 className="animate-fade-up font-heading text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.1] tracking-tight mb-6">
-            Empresa de tecnología que funciona como marca madre
+            Soluciones digitales enfocadas en productividad y crecimiento
           </h1>
 
           {/* Description - ANIMACIÓN SIEMPRE */}
