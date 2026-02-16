@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-// JSON-LD Schema para Astren como organización
+// JSON-LD Schema para Astren
 export const AstrenOrganizationSchema = () => {
   useEffect(() => {
     const schema = {
@@ -9,7 +9,7 @@ export const AstrenOrganizationSchema = () => {
       name: 'Astren',
       url: 'https://astren.app',
       logo: 'https://astren.app/logo_og.png',
-      description: 'Empresa de tecnología especializada en desarrollo de software, páginas web y soluciones digitales innovadoras.',
+      description: 'Proyecto digital en crecimiento enfocado en software propio, páginas web e invitaciones digitales.',
       contactPoint: {
         '@type': 'ContactPoint',
         telephone: '+52-81-3877-8770',
